@@ -10,28 +10,29 @@
 
 ### 【阶段 0：基础锚定 (P0 - Immediate)】
 *   **目标**：项目框架建立，Github 关联。
-*   **状态**：✅ 进行中
+*   **状态**：✅ 完成
     *   [x] 本地目录结构创建。
     *   [x] Git 初始化及远程关联。
     *   [x] `README.md` 创建。
     *   [x] `docs/ROADMAP.md` 创建。
     *   [x] `docs/PHASES.md` 创建。
-    *   [ ] `docs/TODO.md` 创建 (当前)。
-    *   [ ] `docs/CONCEPTS.md` 创建。
-    *   [ ] `docs/METHODOLOGY.md` 创建。
-    *   [ ] 提交所有基础文档到 GitHub。
+    *   [x] `docs/TODO.md` 创建 (当前)。
+    *   [x] `docs/CONCEPTS.md` 创建。
+    *   [x] `docs/METHODOLOGY.md` 创建。
+    *   [x] 提交所有基础文档到 GitHub。
 
 ### 【阶段 1：跃迁范畴定义与数据收集 (P1 - Initial Discovery)】
 *   **目标**：明确“跃迁”的定义、范畴，启动初步数据收集。
-*   **状态**：⏳ 待启动
-    *   [ ] `docs/LEAP_DEFINITION.md` 创建 (基于 Master 指引)。
-    *   [ ] 初步 Research 计划制定。
-    *   [ ] `canon_entries/_template.md` 初稿完善。
-    *   [ ] 风格指南起草。
+*   **状态**：✅ 完成
+    *   [x] `docs/LEAP_DEFINITION.md` 创建 (基于 Master 指引)。
+    *   [x] 初步 Research 计划制定。
+    *   [x] `canon_entries/_template.md` 初稿完善。
+    *   [x] 风格指南起草。
+    *   [x] 首批 35 个跃迁概念编撰。
 
 ### 【阶段 2：数据解构与编码 (P2 - Deconstruction & Encoding)】
 *   **目标**：对收集到的跃迁事件进行逻辑解构和 SBCP L∞ 编码。
-*   **状态**：⏳ 待启动
+*   **状态**：⏳ 启动中
     *   [ ] SBCP L∞ 编码工具开发 (tools/)。
     *   [ ] 首批跃迁案例（如活字印刷术、蒸汽机、晶体管、LLM）的编码。
 
