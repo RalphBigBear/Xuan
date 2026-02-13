@@ -1,4 +1,4 @@
-usr/bin/env node
+#!/usr/bin/env node
 /**
  * Xuan Canon Validation
  * 词典条目验证
