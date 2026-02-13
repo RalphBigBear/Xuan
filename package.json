@@ -1,0 +1,33 @@
+{
+  "name": "xuan-canon",
+  "version": "1.0.0",
+  "description": "玄典 - Q-Core跃迁系统的人类工程词典",
+  "main": "scripts/query.js",
+  "scripts": {
+    "query": "node scripts/query.js",
+    "validate": "node scripts/validate.js validate",
+    "stats": "node scripts/validate.js stats",
+    "check-dup": "node scripts/validate.js check-dup",
+    "test": "node scripts/validate.js validate && echo '✅ 所有验证通过'"
+  },
+  "keywords": [
+    "dictionary",
+    "canon",
+    "transition",
+    "物质",
+    "软件",
+    "跃迁",
+    "玄",
+    "q-core",
+    "东西方思维",
+    "熵减"
+  ],
+  "author": "Ralph + Q-Core",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RalphBigBear/xuan"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

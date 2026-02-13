@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "created": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "total_entries": 0,
+    "categories": ["物质", "软件", "跃迁", "哲学", "工程"]
+  },
+  "concepts": [
+    {
+      "id": "form-to-substance",
+      "term": "形式",
+      "from_domain": "物质",
+      "to_domain": "软件",
+      "category": "跃迁",
+      "definition": "物质的结构和组织方式（如晶体、液体）",
+      "transition": "物理 → 数学 → 代码",
+      "entropy_change": -0.3,
+      "resonance": {
+        "western": "结构化、可计算",
+        "eastern": "相变、整体性"
+      },
+      "examples": [
+        "水分子(H₂O)的结构形式",
+        "软件包的组织结构",
+        "class的面向对象形式"
+      ]
+    },
+    {
+      "id": "structure-to-code",
+      "term": "结构",
+      "from_domain": "物质",
+      "to_domain": "软件",
+      "category": "跃迁",
+      "definition": "物质组成部分的排列方式（如原子结构、建筑）",
+      "transition": "晶体 → 原子 → 数据结构",
+      "entropy_change": -0.4,
+      "resonance": {
+        "western": "解构、标准化",
+        "eastern": "简化、本质性"
+      },
+      "examples": [
+        "硅晶体的原子结构",
+        "JSON数据结构",
+        "系统架构图"
+      ]
+    },
+    {
+      "id": "state-machine",
+      "term": "状态机",
+      "from_domain": "物质",
+      "to_domain": "软件",
+      "category": "跃迁",
+      "definition": "系统所处的情况或阶段（如固态、液态、气态）",
+      "transition": "相变 → 变量 → 状态机",
+      "entropy_change": -0.2,
+      "resonance": {
+        "western": "抽象、控制",
+        "eastern": "入定、动静"
+      },
+      "examples": [
+        "水的三态变化",
+        "TCP连接状态(ESTABLISHED, LISTENING)",
+        "工作流状态"
+      ]
+    },
+    {
+      "id": "energy",
+      "term": "能量",
+      "from_domain": "物质",
+      "to_domain": "软件",
+      "category": "跃迁",
+      "definition": "做功的能力或系统状态的度量（热力学、电磁学）",
+      "transition": "热力学 → 电力 → 信息论",
+      "entropy_change": -0.1,
+      "resonance": {
+        "western": "转化、守恒",
+        "eastern": "聚散、转化"
+      },
+      "examples": [
+        "燃烧释放的热能",
+        "CPU的电力消耗",
+        "带宽/吞吐量"
+      ]
+    },
+    {
+      "id": "service-architecture",
+      "term": "服务化",
+      "from_domain": "物质",
+      "to_domain": "软件",
+      "category": "软件演进",
+      "definition": "单机功能向网络化、多租户模式的演进",
+      "transition": "单体 → C/S → 云",
+      "entropy_change": -0.3,
+      "resonance": {
+        "western": "分布式、解耦",
+        "eastern": "共享、利他"
+      },
+      "examples": [
+        "从桌面软件到SaaS",
+        "微服务架构",
+        "Serverless函数"
+      ]
+    },
+    {
+      "id": "intelligence",
+      "term": "智能化",
+      "from_domain": "物质",
+      "to_domain": "软件",
+      "category": "软件演进",
+      "definition": "从规则驱动到数据驱动再到自主决策的演进",
+      "transition": "规则引擎 → 机器学习 → AI决策",
+      "entropy_change": -0.5,
+      "resonance": {
+        "western": "学习、优化",
+        "eastern": "悟道、神机"
+      },
+      "examples": [
+        "专家系统 → 神经网络",
+        "自动化脚本 → 自适应系统",
+        "推荐算法"
+      ]
+    }
+  ]
+}
