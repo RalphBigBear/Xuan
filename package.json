@@ -8,6 +8,9 @@
     "validate": "node scripts/validate.js validate",
     "stats": "node scripts/validate.js stats",
     "check-dup": "node scripts/validate.js check-dup",
+    "encode": "node tools/encode.js",
+    "decode": "node tools/decode.js",
+    "search": "node tools/decode.js query",
     "test": "node scripts/validate.js validate && echo '✅ 所有验证通过'"
   },
   "keywords": [
