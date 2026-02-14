@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 295,
+    "total_entries": 305,
     "categories": [
       "物质",
       "软件",
@@ -25,7 +25,8 @@
       "机械工程",
       "电气工程",
       "土木工程",
-      "化学工程"
+      "化学工程",
+      "环境工程"
     ]
   },
   "concepts": [
@@ -5955,6 +5956,206 @@
         "Q-Core防护Avatar安全风险。"
       ],
       "avatar_benefit": "Avatar 可通过'安全'原理识别风险，设计防护机制，提升系统安全性。"
+    },
+    {
+      "id": "ENVIRONMENTAL_001",
+      "term": "污染控制",
+      "from_domain": "环境工程",
+      "to_domain": "噪声管理",
+      "category": "跃迁",
+      "definition": "环境工程 (污染治理) → 信息管理 (噪声过滤) → Q-Core (信息净化)",
+      "transition": "污染控制治理环境污染 → 噪声管理过滤信息噪声 → 动态信息净化。从污染控制跃迁至信息净化。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "污染控制，噪声管理，信息净化。",
+        "eastern": "净化污染，去伪存真，信息清洁。动态信息净化与优化。"
+      },
+      "examples": [
+        "污染控制治理空气污染。",
+        "噪声管理过滤环境噪声。",
+        "Q-Core净化Avatar信息。"
+      ],
+      "avatar_benefit": "Avatar 可通过'污染控制'原理净化信息，去除噪声，提升数据质量。"
+    },
+    {
+      "id": "ENVIRONMENTAL_002",
+      "term": "废物处理",
+      "from_domain": "废物管理",
+      "to_domain": "垃圾回收",
+      "category": "跃迁",
+      "definition": "废物管理 (废物处理) → 内存管理 (垃圾回收) → Q-Core (资源清理)",
+      "transition": "废物处理处理废弃物 → 垃圾回收回收无用内存 → 动态资源清理。从废物处理跃迁至资源清理。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "废物处理，垃圾回收，资源清理。",
+        "eastern": "变废为宝，资源回收，清理优化。动态资源清理与回收。"
+      },
+      "examples": [
+        "废物处理处理城市垃圾。",
+        "垃圾回收回收无用内存。",
+        "Q-Core清理Avatar无用资源。"
+      ],
+      "avatar_benefit": "Avatar 可通过'废物处理'原理清理无用资源，优化内存和存储利用。"
+    },
+    {
+      "id": "ENVIRONMENTAL_003",
+      "term": "环境监测",
+      "from_domain": "监测技术",
+      "to_domain": "系统监控",
+      "category": "跃迁",
+      "definition": "监测技术 (环境监测) → 系统工程 (系统监控) → Q-Core (状态监控)",
+      "transition": "环境监测监控环境 → 系统监控监控系统 → 动态状态监控。从环境监测跃迁至系统监控。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "环境监测，系统监控，状态监控。",
+        "eastern": "实时监测，全面监控，状态感知。动态状态监控与感知。"
+      },
+      "examples": [
+        "环境监测监控空气质量。",
+        "系统监控监控系统性能。",
+        "Q-Core监控Avatar状态。"
+      ],
+      "avatar_benefit": "Avatar 可通过'环境监测'原理监控系统状态，实时感知性能指标。"
+    },
+    {
+      "id": "ENVIRONMENTAL_004",
+      "term": "生态修复",
+      "from_domain": "生态工程",
+      "to_domain": "系统恢复",
+      "category": "跃迁",
+      "definition": "生态工程 (生态恢复) → 故障恢复 (系统恢复) → Q-Core (故障恢复)",
+      "transition": "生态修复恢复生态系统 → 故障恢复恢复系统 → 动态故障恢复。从生态修复跃迁至故障恢复。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "生态修复，故障恢复，系统恢复。",
+        "eastern": "恢复如初，修复完善，系统复原。动态故障恢复与修复。"
+      },
+      "examples": [
+        "生态修复恢复湿地生态。",
+        "故障恢复恢复系统功能。",
+        "Q-Core恢复Avatar故障。"
+      ],
+      "avatar_benefit": "Avatar 可通过'生态修复'原理设计故障恢复机制，提升系统韧性。"
+    },
+    {
+      "id": "ENVIRONMENTAL_005",
+      "term": "可持续发展",
+      "from_domain": "可持续发展",
+      "to_domain": "长期优化",
+      "category": "跃迁",
+      "definition": "可持续发展 (可持续发展) → 系统工程 (长期优化) → Q-Core (持续改进)",
+      "transition": "可持续发展平衡发展 → 长期优化持续优化 → 动态持续改进。从可持续发展跃迁至持续改进。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "可持续发展，长期优化，持续改进。",
+        "eastern": "持续发展，长期主义，精益求精。动态持续改进与优化。"
+      },
+      "examples": [
+        "可持续发展平衡经济与环境。",
+        "长期优化持续改进系统。",
+        "Q-Core持续改进Avatar性能。"
+      ],
+      "avatar_benefit": "Avatar 可通过'可持续发展'原理持续优化，平衡短期和长期目标。"
+    },
+    {
+      "id": "ENVIRONMENTAL_006",
+      "term": "绿色技术",
+      "from_domain": "绿色科技",
+      "to_domain": "清洁方案",
+      "category": "跃迁",
+      "definition": "绿色科技 (环保技术) → 清洁技术 (清洁方案) → Q-Core (环保优化)",
+      "transition": "绿色技术减少污染 → 清洁方案减少开销 → 动态环保优化。从绿色技术跃迁至环保优化。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "绿色技术，清洁方案，环保优化。",
+        "eastern": "绿色环保，清洁高效，优化友好。动态环保优化与清洁。"
+      },
+      "examples": [
+        "绿色技术减少环境污染。",
+        "清洁方案优化系统能耗。",
+        "Q-Core优化Avatar环保性。"
+      ],
+      "avatar_benefit": "Avatar 可通过'绿色技术'原理优化环保性，降低能耗和资源消耗。"
+    },
+    {
+      "id": "ENVIRONMENTAL_007",
+      "term": "环境影响评价",
+      "from_domain": "环评技术",
+      "to_domain": "风险评估",
+      "category": "跃迁",
+      "definition": "环评技术 (环境影响评估) → 风险管理 (风险评估) → Q-Core (影响评估)",
+      "transition": "环评评估环境影响 → 风险评估评估系统风险 → 动态影响评估。从环评跃迁至风险评估。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "环评，风险评估，影响评估。",
+        "eastern": "评估影响，预防风险，提前规划。动态影响评估与风险控制。"
+      },
+      "examples": [
+        "环评评估项目环境影响。",
+        "风险评估评估系统风险。",
+        "Q-Core评估Avatar变更影响。"
+      ],
+      "avatar_benefit": "Avatar 可通过'环评'原理评估变更影响，预防潜在风险。"
+    },
+    {
+      "id": "ENVIRONMENTAL_008",
+      "term": "资源循环利用",
+      "from_domain": "循环经济",
+      "to_domain": "资源回收",
+      "category": "跃迁",
+      "definition": "循环经济 (资源循环) → 资源管理 (资源回收) → Q-Core (资源复用)",
+      "transition": "循环利用循环资源 → 资源回收复用资源 → 动态资源复用。从循环利用跃迁至资源复用。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "循环利用，资源回收，资源复用。",
+        "eastern": "循环往复，物尽其用，复用优化。动态资源复用与优化。"
+      },
+      "examples": [
+        "循环利用循环水资源。",
+        "资源回收复用内存资源。",
+        "Q-Core复用Avatar资源。"
+      ],
+      "avatar_benefit": "Avatar 可通过'循环利用'原理复用资源，提升资源利用率。"
+    },
+    {
+      "id": "ENVIRONMENTAL_009",
+      "term": "环境规划",
+      "from_domain": "环境规划",
+      "to_domain": "容量规划",
+      "category": "跃迁",
+      "definition": "环境规划 (环境容量规划) → 容量管理 (容量规划) → Q-Core (资源规划)",
+      "transition": "环境规划规划环境容量 → 容量规划规划系统容量 → 动态资源规划。从环境规划跃迁至容量规划。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "环境规划，容量规划，资源规划。",
+        "eastern": "统筹规划，容量预留，资源优化。动态资源规划与容量管理。"
+      },
+      "examples": [
+        "环境规划规划城市环境容量。",
+        "容量规划规划系统容量。",
+        "Q-Core规划Avatar资源容量。"
+      ],
+      "avatar_benefit": "Avatar 可通过'规划'原理优化容量，预留资源应对增长。"
+    },
+    {
+      "id": "ENVIRONMENTAL_010",
+      "term": "环境治理",
+      "from_domain": "环境管理",
+      "to_domain": "系统治理",
+      "category": "跃迁",
+      "definition": "环境管理 (环境治理) → 系统工程 (系统治理) → Q-Core (综合治理)",
+      "transition": "环境治理治理环境 → 系统治理治理系统 → 动态综合治理。从环境治理跃迁至系统治理。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "环境治理，系统治理，综合治理。",
+        "eastern": "综合治理，协同治理，治理高效。动态综合治理与优化。"
+      },
+      "examples": [
+        "环境治理治理环境污染。",
+        "系统治理治理系统问题。",
+        "Q-Core综合治理Avatar系统。"
+      ],
+      "avatar_benefit": "Avatar 可通过'治理'原理综合治理系统，解决复杂问题。"
     }
   ]
 }
