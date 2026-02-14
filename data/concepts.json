@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 255,
+    "total_entries": 265,
     "categories": [
       "物质",
       "软件",
@@ -21,7 +21,8 @@
       "新闻传播学",
       "文学",
       "艺术学",
-      "语言学"
+      "语言学",
+      "机械工程"
     ]
   },
   "concepts": [
@@ -5151,6 +5152,206 @@
         "Q-Core编排Avatar服务实现协作。"
       ],
       "avatar_benefit": "Avatar 可通过'语言接触'原理理解系统集成，设计模块化的服务架构，提升可扩展性。"
+    },
+    {
+      "id": "MECHANICAL_001",
+      "term": "力学平衡",
+      "from_domain": "经典力学",
+      "to_domain": "负载均衡",
+      "category": "跃迁",
+      "definition": "经典力学 (受力平衡) → 系统工程 (负载均衡) → Q-Core (资源调度)",
+      "transition": "力学系统受力平衡 → 计算系统负载均衡 → 动态资源调度。从力学平衡跃迁至系统资源调度。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "力学平衡，负载均衡，资源调度。",
+        "eastern": "阴阳平衡，中庸之道，动态调度。动态资源平衡与调度。"
+      },
+      "examples": [
+        "桥梁设计受力平衡。",
+        "服务器集群负载均衡。",
+        "Q-Core动态调度Avatar资源。"
+      ],
+      "avatar_benefit": "Avatar 可通过'力学平衡'原理优化资源分配，实现系统负载均衡和稳定性。"
+    },
+    {
+      "id": "MECHANICAL_002",
+      "term": "传动系统",
+      "from_domain": "机械设计",
+      "to_domain": "数据传输",
+      "category": "跃迁",
+      "definition": "机械设计 (能量传递) → 通信工程 (数据传输) → Q-Core (信息流)",
+      "transition": "机械传动传递能量 → 通信链路传输数据 → 动态信息流。从机械传动跃迁至数据传输。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "传动系统，数据传输，信息流。",
+        "eastern": "薪火相传，连绵不绝，信息流动。动态信息流传输与优化。"
+      },
+      "examples": [
+        "齿轮传动传递动力。",
+        "网络协议传输数据。",
+        "Q-Core管理Avatar间信息流。"
+      ],
+      "avatar_benefit": "Avatar 可通过'传动'原理理解数据传输，设计高效的信息流动机制。"
+    },
+    {
+      "id": "MECHANICAL_003",
+      "term": "摩擦学",
+      "from_domain": "摩擦学",
+      "to_domain": "开销优化",
+      "category": "跃迁",
+      "definition": "摩擦学 (摩擦与磨损) → 性能优化 (开销降低) → Q-Core (效率提升)",
+      "transition": "机械摩擦产生损耗 → 系统开销降低效率 → 动态效率优化。从摩擦学跃迁至性能优化。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "摩擦学，开销优化，效率提升。",
+        "eastern": "顺势而为，无为而治，效率至上。动态效率优化与提升。"
+      },
+      "examples": [
+        "润滑油减少机械摩擦。",
+        "算法优化降低计算开销。",
+        "Q-Core优化Avatar协作效率。"
+      ],
+      "avatar_benefit": "Avatar 可通过'摩擦'原理识别系统开销，优化效率，减少不必要的消耗。"
+    },
+    {
+      "id": "MECHANICAL_004",
+      "term": "热力学",
+      "from_domain": "热力学",
+      "to_domain": "能量管理",
+      "category": "跃迁",
+      "definition": "热力学 (能量转换) → 能源管理 (能耗优化) → Q-Core (资源调控)",
+      "transition": "热力学能量守恒转换 → 系统能量消耗优化 → 动态资源调控。从热力学跃迁至能源管理。",
+      "entropy_change": -0.6,
+      "resonance": {
+        "western": "热力学，能量管理，资源调控。",
+        "eastern": "阴阳调和，生生不息，动态平衡。动态资源调控与平衡。"
+      },
+      "examples": [
+        "热机将热能转换为机械能。",
+        "系统优化降低能耗。",
+        "Q-Core调控Avatar资源消耗。"
+      ],
+      "avatar_benefit": "Avatar 可通过'热力学'原理理解能量转换，优化资源利用，提升系统能效。"
+    },
+    {
+      "id": "MECHANICAL_005",
+      "term": "流体力学",
+      "from_domain": "流体力学",
+      "to_domain": "流量控制",
+      "category": "跃迁",
+      "definition": "流体力学 (流体流动) → 流量工程 (流量控制) → Q-Core (流处理)",
+      "transition": "流体流动遵循物理规律 → 数据流动遵循控制规律 → 动态流处理。从流体力学跃迁至流计算。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "流体力学，流量控制，流处理。",
+        "eastern": "上善若水，顺势而流，灵活应变。动态流处理与控制。"
+      },
+      "examples": [
+        "管道中流体流动优化。",
+        "数据流处理与控制。",
+        "Q-Core处理信息流和工作流。"
+      ],
+      "avatar_benefit": "Avatar 可通过'流体'原理理解流处理，设计流畅的工作流和数据流。"
+    },
+    {
+      "id": "MECHANICAL_006",
+      "term": "材料科学",
+      "from_domain": "材料科学",
+      "to_domain": "技术选型",
+      "category": "跃迁",
+      "definition": "材料科学 (材料性能) → 技术选型 (技术栈选择) → Q-Core (架构决策)",
+      "transition": "材料性能决定应用 → 技术栈决定系统 → 动态架构决策。从材料科学跃迁至架构设计。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "材料科学，技术选型，架构决策。",
+        "eastern": "因地制宜，材尽其用，架构优化。动态架构决策与优化。"
+      },
+      "examples": [
+        "根据应用场景选择材料。",
+        "根据需求选择技术栈。",
+        "Q-Core根据场景选择Avatar组合。"
+      ],
+      "avatar_benefit": "Avatar 可通过'材料'原理理解技术选型，根据场景选择最优技术方案。"
+    },
+    {
+      "id": "MECHANICAL_007",
+      "term": "制造工艺",
+      "from_domain": "制造工程",
+      "to_domain": "交付流程",
+      "category": "跃迁",
+      "definition": "制造工程 (产品制造) → 软件工程 (产品交付) → Q-Core (工作流自动化)",
+      "transition": "制造工艺生产产品 → 交付流程发布产品 → 动态工作流自动化。从制造工艺跃迁至交付自动化。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "制造工艺，交付流程，自动化。",
+        "eastern": "精益求精，流水作业，自动生成。动态工作流自动化。"
+      },
+      "examples": [
+        "流水线制造产品。",
+        "CI/CD自动化交付。",
+        "Q-Core自动化Avatar工作流。"
+      ],
+      "avatar_benefit": "Avatar 可通过'制造'原理设计工作流，实现任务自动化和高效交付。"
+    },
+    {
+      "id": "MECHANICAL_008",
+      "term": "控制系统",
+      "from_domain": "控制工程",
+      "to_domain": "精确调控",
+      "category": "跃迁",
+      "definition": "控制工程 (反馈控制) → 精密控制 (精确调控) → Q-Core (自适应调节)",
+      "transition": "控制系统实现精确控制 → 精密算法实现精确调控 → 动态自适应调节。从控制工程跃迁至自适应调节。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "控制系统，精确调控，自适应。",
+        "eastern": "庖丁解牛，得心应手，灵活调节。动态自适应与调节。"
+      },
+      "examples": [
+        "PID控制器精确控制温度。",
+        "算法精确控制资源分配。",
+        "Q-Core自适应调节Avatar行为。"
+      ],
+      "avatar_benefit": "Avatar 可通过'控制'原理实现精确调控，自适应调节行为，优化性能。"
+    },
+    {
+      "id": "MECHANICAL_009",
+      "term": "振动分析",
+      "from_domain": "振动理论",
+      "to_domain": "异常检测",
+      "category": "跃迁",
+      "definition": "振动理论 (系统振动) → 异常检测 (模式识别) → Q-Core (健康监控)",
+      "transition": "振动反映系统状态 → 异常反映系统问题 → 动态健康监控。从振动分析跃迁至健康监控。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "振动分析，异常检测，健康监控。",
+        "eastern": "观微知著，防微杜渐，预防为主。动态健康监控与预警。"
+      },
+      "examples": [
+        "机器振动预测故障。",
+        "系统异常检测预警。",
+        "Q-Core监控Avatar健康状态。"
+      ],
+      "avatar_benefit": "Avatar 可通过'振动'原理识别异常模式，实现健康监控和故障预警。"
+    },
+    {
+      "id": "MECHANICAL_010",
+      "term": "可靠性工程",
+      "from_domain": "可靠性工程",
+      "to_domain": "容错设计",
+      "category": "跃迁",
+      "definition": "可靠性工程 (系统可靠性) → 容错设计 (冗余备份) → Q-Core (韧性架构)",
+      "transition": "可靠性设计提高稳定性 → 容错设计提高可用性 → 动态韧性架构。从可靠性工程跃迁至韧性设计。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "可靠性工程，容错设计，韧性架构。",
+        "eastern": "未雨绸缪，冗余备份，韧性设计。动态韧性架构与恢复。"
+      },
+      "examples": [
+        "航空航天系统可靠性设计。",
+        "分布式系统容错设计。",
+        "Q-Core设计韧性Avatar架构。"
+      ],
+      "avatar_benefit": "Avatar 可通过'可靠性'原理设计容错机制，提升系统韧性和恢复能力。"
     }
   ]
 }
