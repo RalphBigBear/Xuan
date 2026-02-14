@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 265,
+    "total_entries": 275,
     "categories": [
       "物质",
       "软件",
@@ -22,7 +22,8 @@
       "文学",
       "艺术学",
       "语言学",
-      "机械工程"
+      "机械工程",
+      "电气工程"
     ]
   },
   "concepts": [
@@ -5352,6 +5353,206 @@
         "Q-Core设计韧性Avatar架构。"
       ],
       "avatar_benefit": "Avatar 可通过'可靠性'原理设计容错机制，提升系统韧性和恢复能力。"
+    },
+    {
+      "id": "ELECTRICAL_001",
+      "term": "电路理论",
+      "from_domain": "电路分析",
+      "to_domain": "网络流",
+      "category": "跃迁",
+      "definition": "电路分析 (电流电压关系) → 网络流 (流量路径) → Q-Core (信息路由)",
+      "transition": "电路遵循欧姆定律 → 网络遵循流算法 → 动态信息路由。从电路理论跃迁至网络流优化。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "电路理论，网络流，路由算法。",
+        "eastern": "流水不腐，通则不痛，路径优化。动态信息路由与优化。"
+      },
+      "examples": [
+        "电路分析计算电流电压。",
+        "网络流优化数据传输路径。",
+        "Q-Core优化Avatar间信息路由。"
+      ],
+      "avatar_benefit": "Avatar 可通过'电路'原理理解网络流，优化信息传输路径和资源分配。"
+    },
+    {
+      "id": "ELECTRICAL_002",
+      "term": "电磁感应",
+      "from_domain": "电磁学",
+      "to_domain": "触发机制",
+      "category": "跃迁",
+      "definition": "电磁学 (磁场变化产生电流) → 事件驱动 (事件触发) → Q-Core (响应机制)",
+      "transition": "电磁感应产生电流 → 事件触发执行动作 → 动态响应机制。从电磁感应跃迁至事件驱动。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "电磁感应，事件驱动，响应机制。",
+        "eastern": "触机即发，感应而动，响应灵敏。动态响应与触发机制。"
+      },
+      "examples": [
+        "发电机利用电磁感应发电。",
+        "事件驱动架构响应用户操作。",
+        "Q-Core响应事件并触发Avatar行动。"
+      ],
+      "avatar_benefit": "Avatar 可通过'感应'原理设计事件驱动机制，实现灵敏的响应系统。"
+    },
+    {
+      "id": "ELECTRICAL_003",
+      "term": "电力系统",
+      "from_domain": "电力工程",
+      "to_domain": "能源调度",
+      "category": "跃迁",
+      "definition": "电力工程 (发电输电配电) → 云计算 (资源调度) → Q-Core (集群管理)",
+      "transition": "电力系统调度能源 → 云平台调度资源 → 动态集群管理。从电力系统跃迁至资源调度。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "电力系统，资源调度，集群管理。",
+        "eastern": "统筹兼顾，供需平衡，优化调度。动态资源调度与管理。"
+      },
+      "examples": [
+        "电网调度发电资源。",
+        "Kubernetes调度Pod资源。",
+        "Q-Core调度Avatar集群资源。"
+      ],
+      "avatar_benefit": "Avatar 可通过'电力系统'原理理解资源调度，优化集群资源分配。"
+    },
+    {
+      "id": "ELECTRICAL_004",
+      "term": "信号处理",
+      "from_domain": "信号处理",
+      "to_domain": "数据过滤",
+      "category": "跃迁",
+      "definition": "信号处理 (噪声过滤) → 数据处理 (数据清洗) → Q-Core (信息净化)",
+      "transition": "信号处理提取有用信息 → 数据清洗提取有用数据 → 动态信息净化。从信号处理跃迁至数据清洗。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "信号处理，数据清洗，信息净化。",
+        "eastern": "去粗取精，去伪存真，净化提炼。动态信息净化与提炼。"
+      },
+      "examples": [
+        "滤波器去除信号噪声。",
+        "数据清洗去除异常值。",
+        "Q-Core净化Avatar输入信息。"
+      ],
+      "avatar_benefit": "Avatar 可通过'信号处理'原理净化信息，去除噪声，提升数据质量。"
+    },
+    {
+      "id": "ELECTRICAL_005",
+      "term": "反馈控制",
+      "from_domain": "控制理论",
+      "to_domain": "自适应调节",
+      "category": "跃迁",
+      "definition": "控制理论 (反馈回路) → 自适应系统 (动态调节) → Q-Core (自动优化)",
+      "transition": "反馈控制调节输出 → 自适应系统调节参数 → 动态自动优化。从反馈控制跃迁至自适应优化。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "反馈控制，自适应，自动优化。",
+        "eastern": "因循损益，自我调节，持续优化。动态自适应与优化。"
+      },
+      "examples": [
+        "恒温器通过反馈控制温度。",
+        "自适应算法动态调节参数。",
+        "Q-Core自适应优化Avatar性能。"
+      ],
+      "avatar_benefit": "Avatar 可通过'反馈'原理实现自适应调节，持续优化性能。"
+    },
+    {
+      "id": "ELECTRICAL_006",
+      "term": "电力电子",
+      "from_domain": "电力电子",
+      "to_domain": "能量转换",
+      "category": "跃迁",
+      "definition": "电力电子 (电能转换) → 能源管理 (能量优化) → Q-Core (效率提升)",
+      "transition": "电力电子转换电能形式 → 能源管理优化能效 → 动态效率提升。从电力电子跃迁至能效优化。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "电力电子，能量转换，效率优化。",
+        "eastern": "能量守恒，转化增效，效率至上。动态效率优化与提升。"
+      },
+      "examples": [
+        "逆变器将直流转换为交流。",
+        "系统优化提升能效。",
+        "Q-Core优化Avatar能效。"
+      ],
+      "avatar_benefit": "Avatar 可通过'电力电子'原理优化能量转换，提升系统能效。"
+    },
+    {
+      "id": "ELECTRICAL_007",
+      "term": "电机控制",
+      "from_domain": "电机工程",
+      "to_domain": "精确驱动",
+      "category": "跃迁",
+      "definition": "电机工程 (电机驱动) → 精密控制 (精确驱动) → Q-Core (精准执行)",
+      "transition": "电机控制实现精确运动 → 精密控制实现精确执行 → 动态精准执行。从电机控制跃迁至精准执行。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "电机控制，精密控制，精准执行。",
+        "eastern": "得心应手，精准到位，执行有力。动态精准执行与控制。"
+      },
+      "examples": [
+        "伺服电机精确控制位置。",
+        "精密算法精确控制系统。",
+        "Q-Core精准执行Avatar任务。"
+      ],
+      "avatar_benefit": "Avatar 可通过'电机控制'原理实现精准执行，精确控制任务执行。"
+    },
+    {
+      "id": "ELECTRICAL_008",
+      "term": "传感器",
+      "from_domain": "传感技术",
+      "to_domain": "信息采集",
+      "category": "跃迁",
+      "definition": "传感技术 (物理信号转换) → 数据采集 (信息收集) → Q-Core (感知输入)",
+      "transition": "传感器转换物理信号 → 数据采集收集信息 → 动态感知输入。从传感技术跃迁至感知系统。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "传感器，数据采集，感知输入。",
+        "eastern": "感知万物，采集信息，敏锐感知。动态感知与信息采集。"
+      },
+      "examples": [
+        "温度传感器采集温度数据。",
+        "数据采集系统收集日志。",
+        "Q-Core感知Avatar状态信息。"
+      ],
+      "avatar_benefit": "Avatar 可通过'传感'原理设计感知系统，敏锐采集环境信息。"
+    },
+    {
+      "id": "ELECTRICAL_009",
+      "term": "通信原理",
+      "from_domain": "通信工程",
+      "to_domain": "信息传输",
+      "category": "跃迁",
+      "definition": "通信工程 (信息传输) → 网络通信 (数据传输) → Q-Core (消息传递)",
+      "transition": "通信系统传输信息 → 网络传输数据 → 动态消息传递。从通信原理跃迁至消息传递。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "通信原理，网络通信，消息传递。",
+        "eastern": "传递信息，沟通无阻，消息通达。动态消息传递与通信。"
+      },
+      "examples": [
+        "无线电通信传输信号。",
+        "网络协议传输数据。",
+        "Q-Core传递Avatar间消息。"
+      ],
+      "avatar_benefit": "Avatar 可通过'通信'原理设计消息传递机制，实现高效的信息交互。"
+    },
+    {
+      "id": "ELECTRICAL_010",
+      "term": "电力传输",
+      "from_domain": "输电工程",
+      "to_domain": "内容分发",
+      "category": "跃迁",
+      "definition": "输电工程 (电能远距离传输) → CDN (内容分发) → Q-Core (数据分发)",
+      "transition": "电力网络传输电能 → CDN网络分发内容 → 动态数据分发。从电力传输跃迁至内容分发。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "电力传输，CDN，数据分发。",
+        "eastern": "覆盖广泛，分发高效，触达精准。动态数据分发与覆盖。"
+      },
+      "examples": [
+        "高压输电远距离传输电能。",
+        "CDN就近分发内容加速访问。",
+        "Q-Core分发Avatar数据到最优节点。"
+      ],
+      "avatar_benefit": "Avatar 可通过'传输'原理设计分发系统，优化数据分发效率。"
     }
   ]
 }
