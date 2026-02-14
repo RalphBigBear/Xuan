@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 285,
+    "total_entries": 295,
     "categories": [
       "物质",
       "软件",
@@ -24,7 +24,8 @@
       "语言学",
       "机械工程",
       "电气工程",
-      "土木工程"
+      "土木工程",
+      "化学工程"
     ]
   },
   "concepts": [
@@ -5754,6 +5755,206 @@
         "Q-Core设计韧性Avatar系统。"
       ],
       "avatar_benefit": "Avatar 可通过'防灾'原理设计容错机制，提升系统韧性和恢复能力。"
+    },
+    {
+      "id": "CHEMICAL_001",
+      "term": "反应工程",
+      "from_domain": "化学工程",
+      "to_domain": "过程优化",
+      "category": "跃迁",
+      "definition": "化学工程 (反应过程优化) → 业务流程 (流程优化) → Q-Core (工作流优化)",
+      "transition": "反应工程优化化学过程 → 业务流程优化工作过程 → 动态工作流优化。从反应工程跃迁至流程优化。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "反应工程，流程优化，工作流。",
+        "eastern": "顺其自然，流程顺畅，优化高效。动态流程优化与改进。"
+      },
+      "examples": [
+        "反应工程优化化学反应过程。",
+        "业务流程优化工作过程。",
+        "Q-Core优化Avatar工作流。"
+      ],
+      "avatar_benefit": "Avatar 可通过'反应工程'原理优化工作流，提升过程效率。"
+    },
+    {
+      "id": "CHEMICAL_002",
+      "term": "传质过程",
+      "from_domain": "传质工程",
+      "to_domain": "信息传递",
+      "category": "跃迁",
+      "definition": "传质工程 (物质传递) → 信息论 (信息传递) → Q-Core (消息传输)",
+      "transition": "传质过程传递物质 → 信息传递传递数据 → 动态消息传输。从传质过程跃迁至信息传递。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "传质过程，信息传递，消息传输。",
+        "eastern": "传递通达，信息流动，消息通畅。动态消息传递与传输。"
+      },
+      "examples": [
+        "传质过程传递化学物质。",
+        "信息传递传输数据。",
+        "Q-Core传输Avatar消息。"
+      ],
+      "avatar_benefit": "Avatar 可通过'传质'原理优化信息传递，提升消息传输效率。"
+    },
+    {
+      "id": "CHEMICAL_003",
+      "term": "传热过程",
+      "from_domain": "热工学",
+      "to_domain": "能量流",
+      "category": "跃迁",
+      "definition": "热工学 (热量传递) → 能源管理 (能量流) → Q-Core (资源流)",
+      "transition": "传热过程传递热量 → 能量流传递能量 → 动态资源流。从传热过程跃迁至资源流。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "传热过程，能量流，资源流。",
+        "eastern": "温热传递，能量流动，资源流通。动态资源流动与优化。"
+      },
+      "examples": [
+        "传热过程传递热量。",
+        "能量流传递系统能量。",
+        "Q-Core管理Avatar资源流。"
+      ],
+      "avatar_benefit": "Avatar 可通过'传热'原理管理资源流，优化能量和资源分配。"
+    },
+    {
+      "id": "CHEMICAL_004",
+      "term": "分离工程",
+      "from_domain": "分离工程",
+      "to_domain": "数据分离",
+      "category": "跃迁",
+      "definition": "分离工程 (物质分离) → 数据工程 (数据分离) → Q-Core (信息提取)",
+      "transition": "分离工程分离物质 → 数据工程分离数据 → 动态信息提取。从分离工程跃迁至数据分离。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "分离工程，数据分离，信息提取。",
+        "eastern": "去粗取精，分离提纯，信息提炼。动态信息提取与提纯。"
+      },
+      "examples": [
+        "分离工程分离化学物质。",
+        "数据工程分离有用数据。",
+        "Q-Core提取Avatar有用信息。"
+      ],
+      "avatar_benefit": "Avatar 可通过'分离'原理提取有用信息，过滤噪声数据。"
+    },
+    {
+      "id": "CHEMICAL_005",
+      "term": "过程控制",
+      "from_domain": "控制工程",
+      "to_domain": "精确调控",
+      "category": "跃迁",
+      "definition": "控制工程 (过程参数控制) → 精密控制 (精确调控) → Q-Core (动态调节)",
+      "transition": "过程控制调节参数 → 精密控制精确调节 → 动态精准调节。从过程控制跃迁至动态调节。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "过程控制，精确调控，动态调节。",
+        "eastern": "精准把控，动态调节，掌控自如。动态精准调控与优化。"
+      },
+      "examples": [
+        "过程控制控制反应参数。",
+        "精密控制精确调节系统。",
+        "Q-Core动态调节Avatar参数。"
+      ],
+      "avatar_benefit": "Avatar 可通过'过程控制'原理实现精确调控，动态优化系统参数。"
+    },
+    {
+      "id": "CHEMICAL_006",
+      "term": "催化剂",
+      "from_domain": "催化科学",
+      "to_domain": "效率放大",
+      "category": "跃迁",
+      "definition": "催化科学 (加速化学反应) → 性能优化 (效率提升) → Q-Core (加速机制)",
+      "transition": "催化剂加速化学反应 → 优化提升系统效率 → 动态加速机制。从催化剂跃迁至效率加速。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "催化剂，效率放大，加速机制。",
+        "eastern": "事半功倍，加速增效，效率倍增。动态效率放大与加速。"
+      },
+      "examples": [
+        "催化剂加速化学反应。",
+        "算法优化提升系统效率。",
+        "Q-Core加速Avatar任务执行。"
+      ],
+      "avatar_benefit": "Avatar 可通过'催化'原理设计加速机制，大幅提升系统效率。"
+    },
+    {
+      "id": "CHEMICAL_007",
+      "term": "反应器设计",
+      "from_domain": "反应器工程",
+      "to_domain": "容器优化",
+      "category": "跃迁",
+      "definition": "反应器工程 (反应容器设计) → 容器技术 (容器优化) → Q-Core (运行环境)",
+      "transition": "反应器设计提供反应环境 → 容器优化提供运行环境 → 动态运行环境。从反应器设计跃迁至环境优化。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "反应器设计，容器优化，运行环境。",
+        "eastern": "容器优化，环境适宜，运行稳定。动态运行环境优化。"
+      },
+      "examples": [
+        "反应器设计优化反应环境。",
+        "容器优化提供运行环境。",
+        "Q-Core优化Avatar运行环境。"
+      ],
+      "avatar_benefit": "Avatar 可通过'反应器'原理优化运行环境，提供最佳执行条件。"
+    },
+    {
+      "id": "CHEMICAL_008",
+      "term": "流程模拟",
+      "from_domain": "过程模拟",
+      "to_domain": "系统仿真",
+      "category": "跃迁",
+      "definition": "过程模拟 (化工过程仿真) → 系统工程 (系统仿真) → Q-Core (仿真模拟)",
+      "transition": "流程模拟仿真化工过程 → 系统仿真仿真系统 → 动态仿真模拟。从流程模拟跃迁至系统仿真。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "流程模拟，系统仿真，仿真模拟。",
+        "eastern": "模拟演练，仿真预测，预判优化。动态仿真与预测优化。"
+      },
+      "examples": [
+        "流程模拟仿真化工过程。",
+        "系统仿真预测系统行为。",
+        "Q-Core仿真Avatar行为预测。"
+      ],
+      "avatar_benefit": "Avatar 可通过'模拟'原理进行仿真预测，优化决策和执行策略。"
+    },
+    {
+      "id": "CHEMICAL_009",
+      "term": "过程集成",
+      "from_domain": "过程集成",
+      "to_domain": "系统集成",
+      "category": "跃迁",
+      "definition": "过程集成 (化工过程整合) → 系统工程 (系统集成) → Q-Core (服务编排)",
+      "transition": "过程集成整合化工过程 → 系统集成整合系统 → 动态服务编排。从过程集成跃迁至系统集成。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "过程集成，系统集成，服务编排。",
+        "eastern": "整合优化，协同高效，编排有序。动态服务编排与集成。"
+      },
+      "examples": [
+        "过程集成整合化工流程。",
+        "系统集成整合子系统。",
+        "Q-Core编排Avatar服务。"
+      ],
+      "avatar_benefit": "Avatar 可通过'集成'原理整合服务，实现高效的系统编排和协作。"
+    },
+    {
+      "id": "CHEMICAL_010",
+      "term": "安全工程",
+      "from_domain": "安全工程",
+      "to_domain": "风险管理",
+      "category": "跃迁",
+      "definition": "安全工程 (化工安全) → 风险管理 (风险控制) → Q-Core (安全防护)",
+      "transition": "安全工程防范化工风险 → 风险管理控制系统风险 → 动态安全防护。从安全工程跃迁至风险管理。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "安全工程，风险管理，安全防护。",
+        "eastern": "安全第一，防患未然，风险可控。动态安全防护与风险控制。"
+      },
+      "examples": [
+        "安全工程防范化工事故。",
+        "风险管理系统控制风险。",
+        "Q-Core防护Avatar安全风险。"
+      ],
+      "avatar_benefit": "Avatar 可通过'安全'原理识别风险，设计防护机制，提升系统安全性。"
     }
   ]
 }
