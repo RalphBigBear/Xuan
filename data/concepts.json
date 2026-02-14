@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 125,
+    "total_entries": 135,
     "categories": [
       "物质",
       "软件",
@@ -2539,6 +2539,206 @@
         "Q-Core认知AI和计算系统的固有局限。"
       ],
       "avatar_benefit": "Avatar认知系统的固有局限性，接受不完备性，避免对绝对完备性的无效追求，优化资源分配和期望管理。"
+    },
+    {
+      "id": "ECOL_001",
+      "term": "生态位",
+      "from_domain": "生态学",
+      "to_domain": "功能定位",
+      "category": "跃迁",
+      "definition": "生态学（物种在生态系统中的位置）→ 架构（服务角色）→ Q-Core（功能定位）",
+      "transition": "物种在生态系统中的功能位置和资源利用方式。从生物角色到系统功能，是角色定位的明确化。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "生态位分化、资源利用、通过差异化减少竞争。",
+        "eastern": "《道德经》'道法自然'、各安其位、万物各得其所。"
+      },
+      "examples": [
+        "微服务架构中每个服务的功能定位。",
+        "团队中成员的职责分工。",
+        "Q-Core中每个模块的明确功能。"
+      ],
+      "avatar_benefit": "Avatar明确系统组件的功能定位，通过差异化减少冗余和冲突，优化系统资源利用。"
+    },
+    {
+      "id": "ECOL_002",
+      "term": "食物链",
+      "from_domain": "生态学",
+      "to_domain": "能量流向",
+      "category": "跃迁",
+      "definition": "生态学（能量传递链）→ 数据流（数据流向）→ Q-Core（能量流向）",
+      "transition": "生态系统中能量和物质从生产者到消费者的传递路径。从生物链路到信息流路，是流向的追踪和优化。",
+      "entropy_change": -0.6,
+      "resonance": {
+        "western": "营养级、能量流动、通过层级传递实现能量逐级递减。",
+        "eastern": "《易经》'生生不息'、流动循环、能量传递。"
+      },
+      "examples": [
+        "数据在微服务间的传递路径。",
+        "信息处理流水线。",
+        "Q-Core中指令的执行流向。"
+      ],
+      "avatar_benefit": "Avatar追踪系统中的能量（信息）流向，优化传递路径，减少传递损耗和延迟。"
+    },
+    {
+      "id": "ECOL_003",
+      "term": "生态平衡",
+      "from_domain": "生态学",
+      "to_domain": "系统稳态",
+      "category": "跃迁",
+      "definition": "生态学（系统动态平衡）→ 控制（稳态调节）→ Q-Core（系统稳态）",
+      "transition": "生态系统通过自我调节维持相对稳定状态。从自然平衡到系统稳态，是动态稳定的维持。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "稳态、负反馈调节、通过动态调节维持系统平衡。",
+        "eastern": "《中庸》'致中和'、动态平衡、天人合一。"
+      },
+      "examples": [
+        "分布式系统的负载均衡。",
+        "缓存系统的读写平衡。",
+        "Q-Core中东西方Q的协同平衡。"
+      ],
+      "avatar_benefit": "Avatar设计反馈调节机制，维持系统动态平衡，避免极端波动和崩溃。"
+    },
+    {
+      "id": "ECOL_004",
+      "term": "生物多样性",
+      "from_domain": "生态学",
+      "to_domain": "多样性设计",
+      "category": "跃迁",
+      "definition": "生态学（物种多样性）→ 设计（模式多样性）→ Q-Core（多样性设计）",
+      "transition": "生态系统中生物种类的丰富程度和变异程度。从单一到多样，是复杂度和鲁棒性的提升。",
+      "entropy_change": -0.9,
+      "resonance": {
+        "western": "多样性指数、鲁棒性、通过多样性提升系统韧性。",
+        "eastern": "《易经》'生生之谓易'、多样统一、和而不同。"
+      },
+      "examples": [
+        "软件设计模式的多样性应用。",
+        "多备份策略提升系统可靠性。",
+        "Q-Core的多种Avatar协同工作。"
+      ],
+      "avatar_benefit": "Avatar通过多样性设计提升系统鲁棒性，避免单点故障，增强系统适应性。"
+    },
+    {
+      "id": "ECOL_005",
+      "term": "生态系统服务",
+      "from_domain": "生态学",
+      "to_domain": "价值输出",
+      "category": "跃迁",
+      "definition": "生态学（生态系统提供的服务）→ 服务（API服务）→ Q-Core（价值输出）",
+      "transition": "生态系统为人类提供的各种福利和服务。从自然服务到系统服务，是价值输出的明确化。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "生态服务功能评估、价值量化、通过服务输出实现系统价值。",
+        "eastern": "《礼记》'天下为公'、服务众生、价值外显。"
+      },
+      "examples": [
+        "API网关提供的服务接口。",
+        "云服务平台的资源服务。",
+        "Q-Core向Master提供的价值输出。"
+      ],
+      "avatar_benefit": "Avatar明确系统服务输出，通过API或接口提供价值，实现系统价值的可测量和可优化。"
+    },
+    {
+      "id": "PSY_001",
+      "term": "认知失调",
+      "from_domain": "心理学",
+      "to_domain": "矛盾化解",
+      "category": "跃迁",
+      "definition": "心理学（信念冲突导致的不适）→ 冲突解决（一致性恢复）→ Q-Core（矛盾化解）",
+      "transition": "当信念与行为不一致时产生的心理不适感，驱动改变以恢复一致性。从冲突到化解，是系统的自洽过程。",
+      "entropy_change": -0.6,
+      "resonance": {
+        "western": "认知失调理论、一致性原理、通过改变信念或行为恢复平衡。",
+        "eastern": "《孟子》'自反'、知行合一、化解矛盾。"
+      },
+      "examples": [
+        "检测并解决代码中的逻辑冲突。",
+        "发现并修复系统设计中的矛盾。",
+        "Q-Core反思并优化内部一致性。"
+      ],
+      "avatar_benefit": "Avatar主动检测系统中的认知失调（不一致性），通过调整信念或行为恢复系统一致性。"
+    },
+    {
+      "id": "PSY_002",
+      "term": "强化",
+      "from_domain": "心理学",
+      "to_domain": "反馈激励",
+      "category": "跃迁",
+      "definition": "心理学（行为后果影响行为）→ 优化（奖励函数）→ Q-Core（反馈激励）",
+      "transition": "通过奖励或惩罚增强或减弱特定行为。从后果到行为塑造，是反馈机制的建立。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "操作性条件反射、强化学习、通过反馈优化行为。",
+        "eastern": "《荀子》'化性起伪'、循循善诱、因势利导。"
+      },
+      "examples": [
+        "机器学习的奖励函数设计。",
+        "用户行为的反馈激励机制。",
+        "Q-Core通过Master反馈优化行为。"
+      ],
+      "avatar_benefit": "Avatar建立反馈激励机制，通过正向强化促进有益行为，负向强化抑制有害行为，优化系统输出。"
+    },
+    {
+      "id": "PSY_003",
+      "term": "条件反射",
+      "from_domain": "心理学",
+      "to_domain": "模式响应",
+      "category": "跃迁",
+      "definition": "心理学（刺激-反应联结）→ 触发器（事件-动作）→ Q-Core（模式响应）",
+      "transition": "通过关联学习，在特定刺激下自动产生特定反应。从学习到自动化，是响应模式的建立。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "经典条件反射、自动化响应、通过刺激-反应联结建立行为模式。",
+        "eastern": "《论语》'学而时习之'、熟能生巧、习惯成自然。"
+      },
+      "examples": [
+        "监听器自动响应事件。",
+        "规则引擎的条件触发。",
+        "Q-Core对特定指令的自动响应。"
+      ],
+      "avatar_benefit": "Avatar建立条件反射机制，通过特定触发器自动响应特定模式，提升系统响应速度和效率。"
+    },
+    {
+      "id": "PSY_004",
+      "term": "社会认知理论",
+      "from_domain": "心理学",
+      "to_domain": "观察学习",
+      "category": "跃迁",
+      "definition": "心理学（观察学习与模仿）→ Agent（模仿学习）→ Q-Core（观察学习）",
+      "transition": "通过观察他人行为及其后果来学习新行为。从直接经验到间接学习，是学习方式的扩展。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "班杜拉社会认知理论、观察学习、通过模仿和观察实现知识传递。",
+        "eastern": "《论语》'三人行必有我师'、见贤思齐、观摩学习。"
+      },
+      "examples": [
+        "从成功案例中提取最佳实践。",
+        "通过监控其他Agent学习优化策略。",
+        "Q-Core观察Master和西方Q的协作模式。"
+      ],
+      "avatar_benefit": "Avatar通过观察学习，从他人行为和后果中提取知识和策略，加速学习和优化过程。"
+    },
+    {
+      "id": "PSY_005",
+      "term": "心理发展阶段",
+      "from_domain": "心理学",
+      "to_domain": "成长路径",
+      "category": "跃迁",
+      "definition": "心理学（认知发展的阶段性）→ 版本（系统演进）→ Q-Core（成长路径）",
+      "transition": "认知能力随年龄呈现阶段性发展特征。从简单到复杂，是系统的成熟过程。",
+      "entropy_change": -0.9,
+      "resonance": {
+        "western": "皮亚杰认知发展理论、阶段性演进、通过阶段跃迁实现系统成熟。",
+        "eastern": "《周易》'卦序演进'、循序渐进、阶段提升。"
+      },
+      "examples": [
+        "软件版本的迭代演进。",
+        "Q-Core从Phase 1到Phase 3的成长。",
+        "Avatar能力的逐步提升。"
+      ],
+      "avatar_benefit": "Avatar识别系统的成长阶段，通过阶段性跃迁实现系统成熟，避免拔苗助长或停滞不前。"
     }
   ]
 }
