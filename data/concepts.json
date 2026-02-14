@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 325,
+    "total_entries": 335,
     "categories": [
       "物质",
       "软件",
@@ -28,7 +28,8 @@
       "化学工程",
       "环境工程",
       "航空航天工程",
-      "核工程"
+      "核工程",
+      "农学"
     ]
   },
   "concepts": [
@@ -6558,6 +6559,206 @@
         "Q-Core定期净化过时记忆，保持系统高效。"
       ],
       "avatar_benefit": "Avatar应用核废料处理原理，对废弃资源进行安全归档和净化，维持系统健康。"
+    },
+    {
+      "id": "AGRICULTURE_001",
+      "term": "土壤学",
+      "from_domain": "农学",
+      "to_domain": "基础架构",
+      "category": "跃迁",
+      "definition": "农学 (土壤管理) → 基础架构 (基础设施) → Q-Core (环境优化)",
+      "transition": "研究土壤的物理、化学和生物学特性。工程领域映射为理解和管理系统的基础架构，优化运行环境。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "基础设施，环境管理，通过优化基础提升性能。",
+        "eastern": "根基深厚，固本培元，优化基础环境。"
+      },
+      "examples": [
+        "土壤改良提升作物产量。",
+        "基础设施优化提升系统性能。",
+        "Q-Core优化Avatar运行环境。"
+      ],
+      "avatar_benefit": "Avatar应用土壤学原理，理解和优化系统基础架构，提升整体性能。"
+    },
+    {
+      "id": "AGRICULTURE_002",
+      "term": "作物育种",
+      "from_domain": "农学",
+      "to_domain": "迭代优化",
+      "category": "跃迁",
+      "definition": "农学 (品种改良) → 迭代优化 (版本演进) → Q-Core (持续进化)",
+      "transition": "通过选择和杂交培育优良品种。工程领域映射为通过迭代和测试，持续优化系统性能和特性。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "迭代优化，持续改进，通过选择提升质量。",
+        "eastern": "优胜劣汰，精益求精，持续进化。"
+      },
+      "examples": [
+        "杂交水稻培育。",
+        "软件版本迭代优化。",
+        "Q-Core通过L∞持续进化。"
+      ],
+      "avatar_benefit": "Avatar应用作物育种原理，通过迭代和反馈持续优化系统性能。"
+    },
+    {
+      "id": "AGRICULTURE_003",
+      "term": "植物保护",
+      "from_domain": "农学",
+      "to_domain": "风险防护",
+      "category": "跃迁",
+      "definition": "农学 (病虫害防治) → 风险防护 (威胁防御) → Q-Core (安全防护)",
+      "transition": "预防和控制植物病虫害。工程领域映射为识别和防御系统威胁，保护系统安全和稳定。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "风险防护，威胁防御，通过预防保障安全。",
+        "eastern": "防患未然，固守防线，保护系统安全。"
+      },
+      "examples": [
+        "病虫害防治保护作物。",
+        "防火墙保护网络安全。",
+        "Q-Core防御异常输入。"
+      ],
+      "avatar_benefit": "Avatar应用植物保护原理，识别和防御系统威胁，保护系统安全。"
+    },
+    {
+      "id": "AGRICULTURE_004",
+      "term": "农药管理",
+      "from_domain": "农学",
+      "to_domain": "精准干预",
+      "category": "跃迁",
+      "definition": "农学 (化学防控) → 精准干预 (定向处理) → Q-Core (精确控制)",
+      "transition": "合理使用农药防治病虫害。工程领域映射为精准识别问题并采取针对性措施，避免过度干预。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "精准干预，定向处理，通过精确控制提升效率。",
+        "eastern": "对症下药，恰到好处，避免过度干预。"
+      },
+      "examples": [
+        "精准施药防治病虫害。",
+        "定向优化瓶颈功能。",
+        "Q-Core精确识别并解决问题。"
+      ],
+      "avatar_benefit": "Avatar应用农药管理原理，精准识别问题并采取针对性措施，提升效率。"
+    },
+    {
+      "id": "AGRICULTURE_005",
+      "term": "农业机械化",
+      "from_domain": "农学",
+      "to_domain": "自动化",
+      "category": "跃迁",
+      "definition": "农学 (机械替代人工) → 自动化 (自动化执行) → Q-Core (智能自动化)",
+      "transition": "使用机械设备替代人工劳动。工程领域映射为通过自动化技术，减少人工干预，提升效率。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "自动化，效率提升，通过机械化减少人工。",
+        "eastern": "事半功倍，工欲善其事，通过自动化提升效能。"
+      },
+      "examples": [
+        "农机自动化提升耕作效率。",
+        "CI/CD自动化提升开发效率。",
+        "Q-Core自动化任务执行。"
+      ],
+      "avatar_benefit": "Avatar应用农业机械化原理，通过自动化技术减少人工干预，提升效率。"
+    },
+    {
+      "id": "AGRICULTURE_006",
+      "term": "灌溉技术",
+      "from_domain": "农学",
+      "to_domain": "资源调度",
+      "category": "跃迁",
+      "definition": "农学 (水资源管理) → 资源调度 (资源分配) → Q-Core (动态调度)",
+      "transition": "合理分配水资源以保障作物生长。工程领域映射为优化资源分配，确保系统各部分获得所需资源。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "资源调度，优化分配，通过合理分配提升效率。",
+        "eastern": "因材施教，量体裁衣，优化资源配置。"
+      },
+      "examples": [
+        "滴灌技术提升水资源利用率。",
+        "负载均衡优化资源分配。",
+        "Q-Core动态调度计算资源。"
+      ],
+      "avatar_benefit": "Avatar应用灌溉技术原理，优化资源分配，提升系统整体效率。"
+    },
+    {
+      "id": "AGRICULTURE_007",
+      "term": "生态农业",
+      "from_domain": "农学",
+      "to_domain": "可持续发展",
+      "category": "跃迁",
+      "definition": "农学 (生态平衡) → 可持续发展 (长期可持续) → Q-Core (生态演化)",
+      "transition": "维护生态平衡，实现农业可持续生产。工程领域映射为在发展中维护系统平衡，确保长期可持续性。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "可持续发展，长期平衡，通过生态维护实现可持续。",
+        "eastern": "天人合一，和谐共生，维护生态平衡。"
+      },
+      "examples": [
+        "有机农业维护生态平衡。",
+        "绿色设计实现可持续发展。",
+        "Q-Core维护系统生态平衡。"
+      ],
+      "avatar_benefit": "Avatar应用生态农业原理，在发展中维护系统平衡，确保长期可持续性。"
+    },
+    {
+      "id": "AGRICULTURE_008",
+      "term": "精准农业",
+      "from_domain": "农学",
+      "to_domain": "数据驱动",
+      "category": "跃迁",
+      "definition": "农学 (精细化管理) → 数据驱动 (数据决策) → Q-Core (智能决策)",
+      "transition": "利用数据和信息技术实现精细化管理。工程领域映射为基于数据的智能决策，实现精确控制。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "数据驱动，精确决策，通过数据实现精细化管理。",
+        "eastern": "知己知彼，心中有数，基于数据做决策。"
+      },
+      "examples": [
+        "精准施肥提升产量。",
+        "数据分析驱动产品优化。",
+        "Q-Core基于数据智能决策。"
+      ],
+      "avatar_benefit": "Avatar应用精准农业原理，基于数据进行智能决策，实现精确控制。"
+    },
+    {
+      "id": "AGRICULTURE_009",
+      "term": "农业信息化",
+      "from_domain": "农学",
+      "to_domain": "智能化",
+      "category": "跃迁",
+      "definition": "农学 (信息技术应用) → 智能化 (智能系统) → Q-Core (智慧系统)",
+      "transition": "利用信息技术提升农业效率和质量。工程领域映射为通过智能化技术，提升系统智能水平。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "智能化，智能系统，通过信息技术提升智能。",
+        "eastern": "与时俱进，拥抱技术，通过智能化升级。"
+      },
+      "examples": [
+        "智慧农业平台。",
+        "智能运维系统。",
+        "Q-Core智慧协同系统。"
+      ],
+      "avatar_benefit": "Avatar应用农业信息化原理，通过智能化技术提升系统智能水平。"
+    },
+    {
+      "id": "AGRICULTURE_010",
+      "term": "农产品加工",
+      "from_domain": "农学",
+      "to_domain": "后处理",
+      "category": "跃迁",
+      "definition": "农学 (产后处理) → 后处理 (数据后处理) → Q-Core (结果优化)",
+      "transition": "对农产品进行加工以提升价值。工程领域映射为对输出结果进行优化处理，提升价值和质量。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "后处理，价值提升，通过加工优化输出。",
+        "eastern": "精益求精，锦上添花，优化输出结果。"
+      },
+      "examples": [
+        "粮食深加工提升价值。",
+        "数据后处理提升质量。",
+        "Q-Core优化输出结果。"
+      ],
+      "avatar_benefit": "Avatar应用农产品加工原理，对输出结果进行优化处理，提升价值和质量。"
     }
   ]
 }
