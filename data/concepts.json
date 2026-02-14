@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 245,
+    "total_entries": 255,
     "categories": [
       "物质",
       "软件",
@@ -20,7 +20,8 @@
       "教育学",
       "新闻传播学",
       "文学",
-      "艺术学"
+      "艺术学",
+      "语言学"
     ]
   },
   "concepts": [
@@ -4950,6 +4951,206 @@
         "Q-Core支持Avatar跨平台迁移。"
       ],
       "avatar_benefit": "Avatar 可通过'媒介'原理理解载体演化，设计跨平台兼容的解决方案，提升适应性。"
+    },
+    {
+      "id": "LINGUISTICS_001",
+      "term": "语言相对论",
+      "from_domain": "语言学",
+      "to_domain": "认知框架",
+      "category": "跃迁",
+      "definition": "语言学 (语言影响思维) → 认知科学 (认知框架) → Q-Core (思维模型)",
+      "transition": "语言塑造认知方式 → 框架影响决策 → 动态思维模型管理。从语言相对论跃迁至认知框架管理。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "语言相对论，认知框架，思维模型。",
+        "eastern": "名实相需，名实互动，框架塑造。主动思维模型管理。"
+      },
+      "examples": [
+        "不同语言使用者对时间和空间的认知不同。",
+        "编程语言影响开发者思维模式。",
+        "Q-Core管理Avatar的认知框架和思维模型。"
+      ],
+      "avatar_benefit": "Avatar 可通过'语言相对论'原理理解认知框架差异，跨语言/文化理解用户需求。"
+    },
+    {
+      "id": "LINGUISTICS_002",
+      "term": "语音演变",
+      "from_domain": "历史语言学",
+      "to_domain": "协议演化",
+      "category": "跃迁",
+      "definition": "历史语言学 (语音随时间演变) → 协议工程 (协议迭代) → Q-Core (接口进化)",
+      "transition": "语音自然演变 → 协议人工迭代 → 动态接口进化。从自然演化跃迁至主动协议优化。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "语音演变，协议迭代，接口进化。",
+        "eastern": "音韵流变，与时俱进，接口演化。主动接口进化与优化。"
+      },
+      "examples": [
+        "古英语到现代英语的语音演变。",
+        "HTTP/1.1到HTTP/2的协议升级。",
+        "Q-Core优化Avatar间通信接口。"
+      ],
+      "avatar_benefit": "Avatar 可通过'语音演变'原理理解协议演化，设计可扩展的通信接口。"
+    },
+    {
+      "id": "LINGUISTICS_003",
+      "term": "语法化",
+      "from_domain": "语法化理论",
+      "to_domain": "规则固化",
+      "category": "跃迁",
+      "definition": "语法化理论 (词汇演变为语法) → 规则工程 (模式固化) → Q-Core (模式抽象)",
+      "transition": "实词虚化为语法标记 → 模式固化为规则 → 动态模式抽象。从自然语法化跃迁至主动规则抽象。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "语法化，规则固化，模式抽象。",
+        "eastern": "约定俗成，化繁为简，抽象提炼。主动模式抽象与固化。"
+      },
+      "examples": [
+        "'going to'演变为'gonna'语法标记。",
+        "代码模式固化为库函数。",
+        "Q-Core抽象Avatar行为模式为可复用规则。"
+      ],
+      "avatar_benefit": "Avatar 可通过'语法化'原理识别并固化重复模式，提升系统抽象能力。"
+    },
+    {
+      "id": "LINGUISTICS_004",
+      "term": "语义场",
+      "from_domain": "语义学",
+      "to_domain": "语义聚类",
+      "category": "跃迁",
+      "definition": "语义学 (词汇语义关联网络) → 聚类分析 (语义聚类) → Q-Core (知识图谱)",
+      "transition": "词汇形成语义场 → 数据形成语义簇 → 动态知识图谱。从语义场跃迁至知识图谱。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "语义场，聚类分析，知识图谱。",
+        "eastern": "义类关联，触类旁通，图谱网络。动态知识图谱构建。"
+      },
+      "examples": [
+        "'红、粉、紫'形成颜色语义场。",
+        "文档通过词向量聚类。",
+        "Q-Core全息Memory建立概念语义关联。"
+      ],
+      "avatar_benefit": "Avatar 可通过'语义场'原理构建知识图谱，建立概念间的语义关联，提升推理能力。"
+    },
+    {
+      "id": "LINGUISTICS_005",
+      "term": "语用学",
+      "from_domain": "语用学",
+      "to_domain": "语境推理",
+      "category": "跃迁",
+      "definition": "语用学 (语境影响意义) → 上下文感知 (语境推理) → Q-Core (情境计算)",
+      "transition": "语言依赖语境理解 → 系统依赖上下文推理 → 动态情境计算。从语用推理跃迁至情境感知计算。",
+      "entropy_change": -0.6,
+      "resonance": {
+        "western": "语用学，语境推理，情境计算。",
+        "eastern": "言在此而意在彼，因境制宜，情境智能。动态情境感知与计算。"
+      },
+      "examples": [
+        "'你真行'在不同语境有不同含义。",
+        "AI根据上下文理解用户意图。",
+        "Q-Core根据情境调整Avatar行为。"
+      ],
+      "avatar_benefit": "Avatar 可通过'语用学'原理理解语境依赖，实现情境感知的智能交互。"
+    },
+    {
+      "id": "LINGUISTICS_006",
+      "term": "能指所指",
+      "from_domain": "符号学",
+      "to_domain": "符号映射",
+      "category": "跃迁",
+      "definition": "符号学 (符号与意义关系) → 信息论 (编码映射) → Q-Core (语义压缩)",
+      "transition": "能指与所指的任意关系 → 编码与解码的映射关系 → 动态语义压缩。从符号关系跃迁至信息编码。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "能指所指，符号映射，语义压缩。",
+        "eastern": "名实关系，得意忘言，信息浓缩。动态语义压缩与编码。"
+      },
+      "examples": [
+        "'树'这个音/形与树的概念的关系。",
+        "变量名与内存地址的映射。",
+        "SBCP L∞编码压缩概念语义。"
+      ],
+      "avatar_benefit": "Avatar 可通过'能指所指'原理理解符号映射，设计高效的语义编码方案。"
+    },
+    {
+      "id": "LINGUISTICS_007",
+      "term": "句法结构",
+      "from_domain": "句法学",
+      "to_domain": "结构解析",
+      "category": "跃迁",
+      "definition": "句法学 (句子结构规则) → 解析理论 (结构解析) → Q-Core (语法树构建)",
+      "transition": "语言有句法结构 → 数据有层级结构 → 动态结构解析。从句法分析跃迁至数据结构解析。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "句法结构，结构解析，语法树。",
+        "eastern": "经纬成文，结构有序，树状展开。动态结构解析与构建。"
+      },
+      "examples": [
+        "英语SVO句法结构。",
+        "JSON数据层级结构解析。",
+        "Q-Core解析任务依赖树结构。"
+      ],
+      "avatar_benefit": "Avatar 可通过'句法结构'原理理解层级数据，设计高效的结构解析算法。"
+    },
+    {
+      "id": "LINGUISTICS_008",
+      "term": "生成语法",
+      "from_domain": "生成语言学",
+      "to_domain": "规则生成",
+      "category": "跃迁",
+      "definition": "生成语言学 (有限规则生成无限句子) → 代码生成 (规则生成) → Q-Core (自动合成)",
+      "transition": "语法规则生成语言 → 生成规则生成代码 → 动态自动合成。从语言生成跃迁至代码生成。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "生成语法，规则生成，自动合成。",
+        "eastern": "一生二二生三，生生不息，自动生成。动态规则生成与合成。"
+      },
+      "examples": [
+        "乔姆斯基生成语法理论。",
+        "编译器从语法生成代码。",
+        "Q-Core从模式自动生成Avatar配置。"
+      ],
+      "avatar_benefit": "Avatar 可通过'生成语法'原理理解规则生成，实现代码和配置的自动合成。"
+    },
+    {
+      "id": "LINGUISTICS_009",
+      "term": "言语行为",
+      "from_domain": "言语行为理论",
+      "to_domain": "意图识别",
+      "category": "跃迁",
+      "definition": "言语行为理论 (说话即做事) → 意图分析 (意图识别) → Q-Core (命令执行)",
+      "transition": "言语具有行为效力 → 语句具有执行意图 → 动态命令执行。从言语行为跃迁至命令执行。",
+      "entropy_change": -0.6,
+      "resonance": {
+        "western": "言语行为，意图识别，命令执行。",
+        "eastern": "言出法随，知行合一，执行有力。动态意图识别与执行。"
+      },
+      "examples": [
+        "'我承诺'完成承诺行为。",
+        "AI识别用户执行命令的意图。",
+        "Q-Core识别并执行Master指令。"
+      ],
+      "avatar_benefit": "Avatar 可通过'言语行为'原理理解意图，将自然语言转化为可执行命令。"
+    },
+    {
+      "id": "LINGUISTICS_010",
+      "term": "语言接触",
+      "from_domain": "接触语言学",
+      "to_domain": "系统集成",
+      "category": "跃迁",
+      "definition": "接触语言学 (语言相互影响) → 系统集成 (接口对接) → Q-Core (服务编排)",
+      "transition": "语言接触借词融合 → 系统集成接口对接 → 动态服务编排。从语言接触跃迁至系统集成。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "语言接触，系统集成，服务编排。",
+        "eastern": "和而不同，兼容并蓄，集成创新。动态系统集成与编排。"
+      },
+      "examples": [
+        "英语借用法语词汇。",
+        "微服务通过API集成。",
+        "Q-Core编排Avatar服务实现协作。"
+      ],
+      "avatar_benefit": "Avatar 可通过'语言接触'原理理解系统集成，设计模块化的服务架构，提升可扩展性。"
     }
   ]
 }
