@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 335,
+    "total_entries": 345,
     "categories": [
       "物质",
       "软件",
@@ -29,7 +29,8 @@
       "环境工程",
       "航空航天工程",
       "核工程",
-      "农学"
+      "农学",
+      "药学"
     ]
   },
   "concepts": [
@@ -6759,6 +6760,206 @@
         "Q-Core优化输出结果。"
       ],
       "avatar_benefit": "Avatar应用农产品加工原理，对输出结果进行优化处理，提升价值和质量。"
+    },
+    {
+      "id": "PHARMACY_001",
+      "term": "药物化学",
+      "from_domain": "药学",
+      "to_domain": "组件设计",
+      "category": "跃迁",
+      "definition": "药学 (药物分子设计) → 组件设计 (模块设计) → Q-Core (核心组件构建)",
+      "transition": "研究和设计药物分子的结构和性质。工程领域映射为设计和优化系统核心组件的结构和接口。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "分子设计，组件优化，通过设计提升性能。",
+        "eastern": "精雕细琢，匠心独运，优化核心组件。"
+      },
+      "examples": [
+        "药物分子结构优化。",
+        "软件模块接口设计。",
+        "Q-Core核心组件构建。"
+      ],
+      "avatar_benefit": "Avatar应用药物化学原理，设计和优化系统核心组件，提升整体性能。"
+    },
+    {
+      "id": "PHARMACY_002",
+      "term": "药理学",
+      "from_domain": "药学",
+      "to_domain": "效果评估",
+      "category": "跃迁",
+      "definition": "药学 (药物作用机制) → 效果评估 (性能分析) → Q-Core (效能分析)",
+      "transition": "研究药物对机体的作用机制和效果。工程领域映射为分析和评估系统性能和行为机制。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "机制分析，效果评估，通过研究优化性能。",
+        "eastern": "知其所以然，探究本质，分析系统效能。"
+      },
+      "examples": [
+        "药物作用机制研究。",
+        "系统性能分析。",
+        "Q-Core效能分析。"
+      ],
+      "avatar_benefit": "Avatar应用药理学原理，分析和评估系统性能，优化行为机制。"
+    },
+    {
+      "id": "PHARMACY_003",
+      "term": "药剂学",
+      "from_domain": "药学",
+      "to_domain": "接口设计",
+      "category": "跃迁",
+      "definition": "药学 (剂型设计) → 接口设计 (接口优化) → Q-Core (用户界面优化)",
+      "transition": "研究药物的剂型和给药途径。工程领域映射为设计系统接口和交互方式，优化用户体验。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "剂型设计，接口优化，通过设计提升易用性。",
+        "eastern": "因地制宜，因时而变，优化交互方式。"
+      },
+      "examples": [
+        "药物剂型优化。",
+        "用户界面设计。",
+        "Q-Core交互优化。"
+      ],
+      "avatar_benefit": "Avatar应用药剂学原理，设计系统接口和交互方式，提升用户体验。"
+    },
+    {
+      "id": "PHARMACY_004",
+      "term": "药物分析",
+      "from_domain": "药学",
+      "to_domain": "质量控制",
+      "category": "跃迁",
+      "definition": "药学 (药物质量检测) → 质量控制 (质量保证) → Q-Core (质量监控)",
+      "transition": "检测和控制药物质量。工程领域映射为监控和保证系统输出质量。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "质量检测，质量保证，通过控制提升可靠性。",
+        "eastern": "精益求精，一丝不苟，保证输出质量。"
+      },
+      "examples": [
+        "药物质量检测。",
+        "软件质量保证。",
+        "Q-Core质量监控。"
+      ],
+      "avatar_benefit": "Avatar应用药物分析原理，监控和保证系统输出质量。"
+    },
+    {
+      "id": "PHARMACY_005",
+      "term": "药物动力学",
+      "from_domain": "药学",
+      "to_domain": "数据流向",
+      "category": "跃迁",
+      "definition": "药学 (药物代谢过程) → 数据流向 (数据流) → Q-Core (信息流转)",
+      "transition": "研究药物在体内的吸收、分布、代谢和排泄。工程领域映射为追踪和优化数据在系统中的流动路径。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "代谢过程，数据流向，通过追踪优化流动。",
+        "eastern": "顺藤摸瓜，寻根究底，追踪信息流转。"
+      },
+      "examples": [
+        "药物代谢研究。",
+        "数据流分析。",
+        "Q-Core信息流转优化。"
+      ],
+      "avatar_benefit": "Avatar应用药物动力学原理，追踪和优化数据在系统中的流动路径。"
+    },
+    {
+      "id": "PHARMACY_006",
+      "term": "临床药学",
+      "from_domain": "药学",
+      "to_domain": "个性化服务",
+      "category": "跃迁",
+      "definition": "药学 (个体化给药) → 个性化服务 (定制化) → Q-Core (情境化具现)",
+      "transition": "根据患者个体差异制定给药方案。工程领域映射为根据用户需求定制化服务，优化体验。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "个体化治疗，定制化服务，通过定制提升满意度。",
+        "eastern": "因材施教，量体裁衣，个性化服务。"
+      },
+      "examples": [
+        "个体化给药方案。",
+        "定制化软件功能。",
+        "Q-Core情境化具现。"
+      ],
+      "avatar_benefit": "Avatar应用临床药学原理，根据用户需求定制化服务，优化体验。"
+    },
+    {
+      "id": "PHARMACY_007",
+      "term": "药物治疗",
+      "from_domain": "药学",
+      "to_domain": "方案优化",
+      "category": "跃迁",
+      "definition": "药学 (药物治疗方案) → 方案优化 (策略优化) → Q-Core (策略优化)",
+      "transition": "制定和优化药物治疗方案。工程领域映射为制定和优化问题解决策略。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "方案制定，策略优化，通过优化提升效果。",
+        "eastern": "运筹帷幄，审时度势，优化解决策略。"
+      },
+      "examples": [
+        "药物治疗方案优化。",
+        "系统策略优化。",
+        "Q-Core策略优化。"
+      ],
+      "avatar_benefit": "Avatar应用药物治疗原理，制定和优化问题解决策略，提升效果。"
+    },
+    {
+      "id": "PHARMACY_008",
+      "term": "药物相互作用",
+      "from_domain": "药学",
+      "to_domain": "组件协同",
+      "category": "跃迁",
+      "definition": "药学 (药物协同效应) → 组件协同 (模块协同) → Q-Core (协同增效)",
+      "transition": "研究药物之间的相互作用和协同效应。工程领域映射为优化系统组件间的协同，实现增效。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "协同效应，组件协同，通过协同提升效能。",
+        "eastern": "和而不同，相辅相成，实现协同增效。"
+      },
+      "examples": [
+        "药物协同作用。",
+        "模块协同工作。",
+        "Q-Core协同增效。"
+      ],
+      "avatar_benefit": "Avatar应用药物相互作用原理，优化系统组件间的协同，实现增效。"
+    },
+    {
+      "id": "PHARMACY_009",
+      "term": "药物安全性",
+      "from_domain": "药学",
+      "to_domain": "风险评估",
+      "category": "跃迁",
+      "definition": "药学 (不良反应监测) → 风险评估 (风险控制) → Q-Core (安全防护)",
+      "transition": "监测和评估药物的安全性。工程领域映射为识别和控制系统风险，确保安全运行。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "安全监测，风险评估，通过评估保障安全。",
+        "eastern": "防患未然，未雨绸缪，识别并控制风险。"
+      },
+      "examples": [
+        "药物不良反应监测。",
+        "系统风险评估。",
+        "Q-Core安全防护。"
+      ],
+      "avatar_benefit": "Avatar应用药物安全性原理，识别和控制系统风险，确保安全运行。"
+    },
+    {
+      "id": "PHARMACY_010",
+      "term": "循证药学",
+      "from_domain": "药学",
+      "to_domain": "数据驱动决策",
+      "category": "跃迁",
+      "definition": "药学 (证据支持决策) → 数据驱动决策 (数据决策) → Q-Core (智能决策)",
+      "transition": "基于最佳证据制定药物治疗方案。工程领域映射为基于数据做出智能决策，提升决策质量。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "证据支持，数据驱动，通过数据提升决策质量。",
+        "eastern": "实事求是，数据说话，基于证据做决策。"
+      },
+      "examples": [
+        "循证药物治疗。",
+        "数据驱动产品优化。",
+        "Q-Core智能决策。"
+      ],
+      "avatar_benefit": "Avatar应用循证药学原理，基于数据做出智能决策，提升决策质量。"
     }
   ]
 }
