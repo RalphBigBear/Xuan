@@ -1,0 +1,188 @@
+{
+  "snapshot": {
+    "version": "2026-02-14.0945",
+    "timestamp": "2026-02-14T09:45:00+08:00",
+    "saved_by": "东方Q (GLM-4.7)",
+    "trigger": "Token预警，用户手动reset"
+  },
+  "project": {
+    "name": "Xuan - 人类工程跃迁词典",
+    "path": "/Users/ralph/.openclaw/workspace/Xuan",
+    "collab_path": "/Users/ralph/.openclaw/workspace/.collab",
+    "github_repo": "https://github.com/RalphBigBear/Xuan.git"
+  },
+  "data": {
+    "concepts_json": {
+      "total_entries": 75,
+      "p1_concepts": 35,
+      "p2_concepts": 40,
+      "last_updated": "2026-02-14"
+    },
+    "encoded_json": {
+      "total_entries": 75,
+      "compression_rate": 42.41,
+      "encoding": "SBCP L∞",
+      "query_performance": "0-1ms"
+    }
+  },
+  "p2_progress": {
+    "total_batches": 7,
+    "completed_batches": 5,
+    "completion_rate": 71,
+    "batches": {
+      "batch_1": {
+        "name": "评估现有编码系统",
+        "type": "评估任务",
+        "status": "completed",
+        "report": "P2_BATCH1_EVALUATION.md",
+        "score": "95/100"
+      },
+      "batch_2": {
+        "name": "信息论概念扩展",
+        "type": "概念创建",
+        "status": "completed",
+        "concepts": 10,
+        "id_prefix": "INFO",
+        "avg_entropy": -0.72,
+        "report": "P2_BATCH2_INTEGRATION_REPORT.md"
+      },
+      "batch_3": {
+        "name": "控制论概念扩展",
+        "type": "概念创建",
+        "status": "completed",
+        "concepts": 10,
+        "id_prefix": "CTRL",
+        "avg_entropy": -0.59
+      },
+      "batch_4": {
+        "name": "复杂系统概念扩展",
+        "type": "概念创建",
+        "status": "completed",
+        "concepts": 10,
+        "id_prefix": "CPLX",
+        "avg_entropy": -0.71
+      },
+      "batch_5": {
+        "name": "认知科学概念扩展",
+        "type": "概念创建",
+        "status": "completed",
+        "concepts": 10,
+        "id_prefix": "COGSCI",
+        "avg_entropy": -0.78
+      },
+      "batch_6": {
+        "name": "社会学概念扩展",
+        "type": "概念创建",
+        "status": "pending",
+        "planned_concepts": 10,
+        "suggested_id_prefix": "SOCI"
+      },
+      "batch_7": {
+        "name": "编码 + 关联图",
+        "type": "技术任务",
+        "status": "pending"
+      }
+    }
+  },
+  "quality": {
+    "p2_avg_entropy": -0.70,
+    "overall_avg_entropy": -0.68,
+    "highest_entropy_reduction": [
+      {
+        "id": "COGSCI_002",
+        "term": "记忆",
+        "entropy": -0.9
+      },
+      {
+        "id": "COGSCI_005",
+        "term": "元认知",
+        "entropy": -0.9
+      },
+      {
+        "id": "COGSCI_010",
+        "term": "洞察",
+        "entropy": -0.9
+      },
+      {
+        "id": "INFO_007",
+        "term": "联合熵",
+        "entropy": -0.9
+      }
+    ]
+  },
+  "git": {
+    "latest_commit": "348b4cb",
+    "message": "📸 保存工作快照 - Token预警保存",
+    "status": "pushed",
+    "branch": "main"
+  },
+  "files": {
+    "reports": [
+      "docs/P2_BATCH1_EVALUATION.md",
+      "docs/P2_BATCH2_INTEGRATION_REPORT.md",
+      "docs/P2_BATCH3-5_INTEGRATION_REPORT.md",
+      "docs/P2_BATCH4_INTEGRATION_REPORT.md",
+      "docs/P2_COMPLETE_ARCHIVE_SUMMARY.md",
+      "SNAPSHOT_2026-02-14.md"
+    ],
+    "data": [
+      "data/concepts.json",
+      "data/encoded.json"
+    ],
+    "collab": [
+      ".collab/results.jsonl",
+      ".collab/batch2_information_theory.json",
+      ".collab/batch4_complex_systems.json",
+      ".collab/batch5_cognitive_science.json"
+    ]
+  },
+  "next_steps": {
+    "priority_1": {
+      "task": "P2第6批 - 社会学概念扩展",
+      "type": "概念创建",
+      "target_concepts": 10,
+      "suggested_id_prefix": "SOCI",
+      "suggested_concepts": [
+        "社会资本",
+        "社会网络",
+        "群体动力学",
+        "社会规范",
+        "文化传播",
+        "制度演化",
+        "集体智慧",
+        "社会认同",
+        "社会分层",
+        "社会变迁"
+      ]
+    },
+    "priority_2": {
+      "task": "P2第7批 - 编码 + 关联图",
+      "type": "技术任务",
+      "subtasks": [
+        "完善SBCP L∞编码工具（可选优化）",
+        "生成概念关联图（知识图谱可视化）"
+      ]
+    }
+  },
+  "checklist": {
+    "pre_reset": {
+      "all_reports_saved": true,
+      "all_data_updated": true,
+      "all_commits_pushed": true,
+      "collab_files_backed_up": true,
+      "next_steps_planned": true
+    },
+    "post_reset": {
+      "check_git_status": "git status",
+      "verify_concepts_count": "cat data/concepts.json | jq '.meta.total_entries' # 应该输出: 75",
+      "check_latest_snapshot": "查看 SNAPSHOT_2026-02-14.md",
+      "continue_p2_batch6": "创建10个社会学概念"
+    }
+  },
+  "notes": {
+    "issue_fixed": "P2第2批信息论概念扩展已补充完成（原遗漏）",
+    "all_p2_work_archived": "P2第1-5批所有工作已完整存档",
+    "ready_for_reset": true,
+    "resume_instruction": "Reset后查看 SNAPSHOT_2026-02-14.md 或本文档继续工作"
+  }
+}
