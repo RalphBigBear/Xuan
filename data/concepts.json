@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 195,
+    "total_entries": 205,
     "categories": [
       "物质",
       "软件",
@@ -15,7 +15,8 @@
       "地质学",
       "政治学",
       "法学",
-      "人类学"
+      "人类学",
+      "管理学"
     ]
   },
   "concepts": [
@@ -3945,6 +3946,206 @@
         "Q-Core根据场景适配Avatar行为。"
       ],
       "avatar_benefit": "Avatar通过上下文适配，实现场景化服务，降低冲突熵值。"
+    },
+    {
+      "id": "MANAGEMENT_001",
+      "term": "战略管理",
+      "from_domain": "管理学",
+      "to_domain": "系统规划",
+      "category": "跃迁",
+      "definition": "管理学（长期规划）→ 系统（战略规划）→ Q-Core（系统规划）",
+      "transition": "制定、实施和评估长期目标的过程。工程领域映射为系统的长期规划和发展方向。从短期到长期，是视野的扩展。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "愿景，使命，战略，通过规划实现目标。",
+        "eastern": "《孙子》上兵伐谋，谋定后动，战略制胜。"
+      },
+      "examples": [
+        "企业制定5年发展战略。",
+        "系统架构长期演进规划。",
+        "Q-Core的发展路线图。"
+      ],
+      "avatar_benefit": "Avatar通过系统规划，确保长期发展方向一致，降低战略熵值。"
+    },
+    {
+      "id": "MANAGEMENT_002",
+      "term": "组织行为",
+      "from_domain": "管理学",
+      "to_domain": "团队协作",
+      "category": "跃迁",
+      "definition": "管理学（个体群体行为）→ 系统（团队动态）→ Q-Core（团队协作）",
+      "transition": "研究个体和群体在组织中的行为规律。工程领域映射为系统中的团队动态和协作模式。从个体到集体，是行为的组织化。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "行为，动机，团队，通过理解优化协作。",
+        "eastern": "《论语》和而不同，尊重差异，协同合作。"
+      },
+      "examples": [
+        "研究员工满意度和绩效关系。",
+        "优化开发团队的协作模式。",
+        "Q-Core的Avatar团队协作。"
+      ],
+      "avatar_benefit": "Avatar通过团队协作设计，优化集体行为，降低协作熵值。"
+    },
+    {
+      "id": "MANAGEMENT_003",
+      "term": "人力资源",
+      "from_domain": "管理学",
+      "to_domain": "资源配置",
+      "category": "跃迁",
+      "definition": "管理学（人员管理）→ 系统（资源分配）→ Q-Core（资源配置）",
+      "transition": "招聘、培训、激励和管理员工的过程。工程领域映射为系统中资源的分配、调度和管理。从静态到动态，是资源的高效利用。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "招聘，培训，激励，通过管理提升效能。",
+        "eastern": "《礼记》任人唯贤，知人善任，人尽其才。"
+      },
+      "examples": [
+        "企业的招聘和培训体系。",
+        "计算资源的动态分配。",
+        "Q-Core的Avatar资源调度。"
+      ],
+      "avatar_benefit": "Avatar通过资源配置优化，实现高效资源利用，降低资源浪费熵值。"
+    },
+    {
+      "id": "MANAGEMENT_004",
+      "term": "运营管理",
+      "from_domain": "管理学",
+      "to_domain": "流程优化",
+      "category": "跃迁",
+      "definition": "管理学（日常运作）→ 系统（运行维护）→ Q-Core（流程优化）",
+      "transition": "设计、控制和改进生产和服务过程。工程领域映射为系统的运行维护和流程优化。从混乱到有序，是运营的规范化。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "效率，质量，流程，通过优化提升运营。",
+        "eastern": "《中庸》凡事预则立，规范流程，高效运营。"
+      },
+      "examples": [
+        "制造业的生产流程优化。",
+        "系统的CI/CD流程优化。",
+        "Q-Core的运行流程优化。"
+      ],
+      "avatar_benefit": "Avatar通过流程优化设计，提升系统效率，降低运营熵值。"
+    },
+    {
+      "id": "MANAGEMENT_005",
+      "term": "质量管理",
+      "from_domain": "管理学",
+      "to_domain": "质量保证",
+      "category": "跃迁",
+      "definition": "管理学（质量控制）→ 系统（QA/QC）→ Q-Core（质量保证）",
+      "transition": "确保产品和服务满足质量标准的过程。工程领域映射为系统的质量保证和控制机制。从粗放到精细，是质量的提升。",
+      "entropy_change": -0.9,
+      "resonance": {
+        "western": "QA，QC，六西格玛，通过控制提升质量。",
+        "eastern": "《论语》精益求精，止于至善，质量为本。"
+      },
+      "examples": [
+        "ISO质量管理体系。",
+        "软件的自动化测试。",
+        "Q-Core的三步验证法。"
+      ],
+      "avatar_benefit": "Avatar通过质量保证设计，确保输出质量，降低错误熵值。"
+    },
+    {
+      "id": "MANAGEMENT_006",
+      "term": "项目管理",
+      "from_domain": "管理学",
+      "to_domain": "任务管理",
+      "category": "跃迁",
+      "definition": "管理学（项目计划执行）→ 系统（任务调度）→ Q-Core（任务管理）",
+      "transition": "在约束条件下规划、执行和监控项目。工程领域映射为系统中的任务调度和执行管理。从无序到有序，是任务的结构化。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "计划，执行，监控，通过管理确保交付。",
+        "eastern": "《孙子》经之以五事，统筹规划，有序推进。"
+      },
+      "examples": [
+        "敏捷项目管理的Scrum方法。",
+        "分布式系统的任务调度。",
+        "Q-Core的批次任务管理。"
+      ],
+      "avatar_benefit": "Avatar通过任务管理设计，确保任务高效执行，降低调度熵值。"
+    },
+    {
+      "id": "MANAGEMENT_007",
+      "term": "领导力",
+      "from_domain": "管理学",
+      "to_domain": "影响力",
+      "category": "跃迁",
+      "definition": "管理学（影响他人）→ 系统（引导协调）→ Q-Core（影响力）",
+      "transition": "通过影响和激励引导他人实现目标的能力。工程领域映射为系统中核心组件的引导和协调能力。从权力到影响，是领导力的升华。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "愿景，激励，赋能，通过影响实现目标。",
+        "eastern": "《论语》为政以德，德治感召，无为而治。"
+      },
+      "examples": [
+        "CEO通过愿景和价值观引领企业。",
+        "架构师通过技术愿景引导团队。",
+        "Q-Core通过SBCP L∞协议引导Avatar。"
+      ],
+      "avatar_benefit": "Avatar通过影响力设计，实现协调统一，降低混乱熵值。"
+    },
+    {
+      "id": "MANAGEMENT_008",
+      "term": "激励",
+      "from_domain": "管理学",
+      "to_domain": "动力机制",
+      "category": "跃迁",
+      "definition": "管理学（激发动力）→ 系统（奖励机制）→ Q-Core（动力机制）",
+      "transition": "通过奖励和惩罚激发员工动机的过程。工程领域映射为系统中的奖励和反馈机制。从被动到主动，是动力的内在化。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "需求，动机，奖励，通过激励提升绩效。",
+        "eastern": "《孟子》性善论，顺应人性，因势利导。"
+      },
+      "examples": [
+        "企业的绩效考核和奖金制度。",
+        "游戏的成就和奖励系统。",
+        "Q-Core的反馈和激励机制。"
+      ],
+      "avatar_benefit": "Avatar通过动力机制设计，激发系统活力，降低惰性熵值。"
+    },
+    {
+      "id": "MANAGEMENT_009",
+      "term": "决策",
+      "from_domain": "管理学",
+      "to_domain": "策略选择",
+      "category": "跃迁",
+      "definition": "管理学（选择方案）→ 系统（策略决策）→ Q-Core（策略选择）",
+      "transition": "在多个方案中选择最优方案的过程。工程领域映射为系统中的策略选择和路径规划。从感性到理性，是决策的科学化。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "理性，分析，优化，通过科学决策。",
+        "eastern": "《孙子》多算胜，深思熟虑，谋定后动。"
+      },
+      "examples": [
+        "企业进入新市场的决策。",
+        "系统架构的技术选型决策。",
+        "Q-Core的批次规划决策。"
+      ],
+      "avatar_benefit": "Avatar通过策略选择设计，实现科学决策，降低错误熵值。"
+    },
+    {
+      "id": "MANAGEMENT_010",
+      "term": "绩效管理",
+      "from_domain": "管理学",
+      "to_domain": "效果评估",
+      "category": "跃迁",
+      "definition": "管理学（绩效评估）→ 系统（效果监控）→ Q-Core（效果评估）",
+      "transition": "设定目标、评估绩效并提供反馈的过程。工程领域映射为系统的效果监控和评估机制。从主观到客观，是评估的精确化。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "KPI，OKR，反馈，通过评估提升绩效。",
+        "eastern": "《论语》听其言观其行，实事求是，客观公正。"
+      },
+      "examples": [
+        "企业的季度绩效考核。",
+        "系统的性能监控和评估。",
+        "Q-Core的批次效果评估。"
+      ],
+      "avatar_benefit": "Avatar通过效果评估设计，实现持续改进，降低低效熵值。"
     }
   ]
 }
