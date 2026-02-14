@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 215,
+    "total_entries": 225,
     "categories": [
       "物质",
       "软件",
@@ -17,7 +17,8 @@
       "法学",
       "人类学",
       "管理学",
-      "教育学"
+      "教育学",
+      "新闻传播学"
     ]
   },
   "concepts": [
@@ -4347,6 +4348,206 @@
         "Q-Core的公平资源分配。"
       ],
       "avatar_benefit": "Avatar通过机会均等设计，实现系统公平，降低不公熵值。"
+    },
+    {
+      "id": "COMMUNICATION_001",
+      "term": "议程设置",
+      "from_domain": "新闻传播学",
+      "to_domain": "注意力管理",
+      "category": "跃迁",
+      "definition": "新闻传播学 (媒体影响公众议程) → 社会心理学 (认知显著性) → Q-Core (注意力管理)",
+      "transition": "传统媒体单向设置议程 → 多元媒体竞争设置 → 系统化注意力管理。媒体从'告诉人们怎么想'转向'告诉人们该想什么'，最终跃迁至主动管理信息流动性和注意力焦点。",
+      "entropy_change": -0.6,
+      "resonance": {
+        "western": "显著性传递，认知前提，媒体影响力。",
+        "eastern": "名实互动，言意关系，势能引导。媒体之'势'引导认知之'实'。"
+      },
+      "examples": [
+        "媒体重点报道疫情，公众关注疫情。",
+        "平台推荐算法决定用户看到什么内容。",
+        "Q-Core Avatar优先处理高优先级任务，管理注意力。"
+      ],
+      "avatar_benefit": "Avatar 可通过'议程设置'原理管理任务优先级，主动引导注意力流向，避免信息过载和碎片化。"
+    },
+    {
+      "id": "COMMUNICATION_002",
+      "term": "沉默螺旋",
+      "from_domain": "社会心理学",
+      "to_domain": "共识收敛",
+      "category": "跃迁",
+      "definition": "社会心理学 (少数意见沉默) → 网络科学 (回音室效应) → Q-Core (共识收敛)",
+      "transition": "个体因恐惧孤立而隐瞒观点 → 群体极化与回音室强化 → 系统检测与共识收敛。从被动的社会压力跃迁至主动的多样性保护和共识形成机制。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "社会孤立恐惧，从众心理，意见气候。",
+        "eastern": "和而不同，中庸之道，意见平衡。避免极端，保持多样性。"
+      },
+      "examples": [
+        "社交媒体上少数意见被淹没。",
+        "团队成员不敢提出反对意见。",
+        "Q-Core检测Avatar间的意见多样性，防止共识偏差。"
+      ],
+      "avatar_benefit": "Avatar 可识别'沉默螺旋'现象，主动保护少数观点，促进真实共识而非虚假一致。"
+    },
+    {
+      "id": "COMMUNICATION_003",
+      "term": "知识沟",
+      "from_domain": "传播社会学",
+      "to_domain": "能力分层",
+      "category": "跃迁",
+      "definition": "传播社会学 (信息获取差距) → 数字鸿沟 (接入差异) → Q-Core (能力分层)",
+      "transition": "社会经济地位导致知识差距 → 数字技术加剧不平等 → 能力分层与补偿机制。从被动的不平等跃迁至主动的能力识别和差异化支持。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "信息不平等，数字鸿沟，社会分层。",
+        "eastern": "有教无类，因材施教，能力适配。识别差异，提供支持。"
+      },
+      "examples": [
+        "高学历群体获取信息更快。",
+        "不同Avatar处理能力存在差异。",
+        "Q-Core识别Avatar能力，分配适配任务。"
+      ],
+      "avatar_benefit": "Avatar 可识别其他Avatar的能力差异，动态调整任务分配和协作模式，避免知识沟扩大。"
+    },
+    {
+      "id": "COMMUNICATION_004",
+      "term": "涵化理论",
+      "from_domain": "媒介研究",
+      "to_domain": "认知塑造",
+      "category": "跃迁",
+      "definition": "媒介研究 (长期媒体接触塑造认知) → 认知心理学 (图式形成) → Q-Core (认知塑造)",
+      "transition": "媒体重复暴露影响世界观 → 信息环境建构现实 → 主动认知管理。从被动接受媒体影响跃迁至主动管理信息环境和认知图式。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "主流化，共鸣，认知建构。",
+        "eastern": "潜移默化，境随心转，认知迭代。主动塑造认知环境。"
+      },
+      "examples": [
+        "重度观看新闻节目的人认为世界更危险。",
+        "Avatar长期接触特定类型任务形成思维定式。",
+        "Q-Core主动管理Avatar的认知暴露，防止偏狭。"
+      ],
+      "avatar_benefit": "Avatar 可管理信息暴露的多样性，防止认知偏狭和单一视角，保持认知灵活性。"
+    },
+    {
+      "id": "COMMUNICATION_005",
+      "term": "使用与满足",
+      "from_domain": "受众研究",
+      "to_domain": "需求驱动",
+      "category": "跃迁",
+      "definition": "受众研究 (受众主动选择媒体满足需求) → 动机心理学 (需求驱动行为) → Q-Core (需求驱动)",
+      "transition": "受众不是被动接收而是主动选择 → 需求导向的媒体使用 → 系统化的需求识别和满足。从被动适应跃迁至主动需求管理。",
+      "entropy_change": -0.5,
+      "resonance": {
+        "western": "主动受众，需求满足，选择性行为。",
+        "eastern": "知行合一，需求驱动，适应迭代。主动识别并满足需求。"
+      },
+      "examples": [
+        "用户刷短视频寻求娱乐放松。",
+        "Avatar选择最适合当前任务的工具。",
+        "Q-Core识别Avatar需求，动态提供资源。"
+      ],
+      "avatar_benefit": "Avatar 可主动识别自身和其他Avatar的需求，动态选择最优工具和策略，提升效率。"
+    },
+    {
+      "id": "COMMUNICATION_006",
+      "term": "媒介系统依赖",
+      "from_domain": "媒介生态学",
+      "to_domain": "资源依赖",
+      "category": "跃迁",
+      "definition": "媒介生态学 (受众依赖媒介获取目标) → 资源依赖理论 (相互依赖关系) → Q-Core (资源依赖)",
+      "transition": "个人依赖媒介达成目标 → 系统化资源依赖网络 → 动态依赖管理。从被动依赖跃迁至主动优化依赖关系。",
+      "entropy_change": -0.6,
+      "resonance": {
+        "western": "资源依赖，权力关系，系统平衡。",
+        "eastern": "相互依存，动态平衡，资源优化。主动管理依赖关系。"
+      },
+      "examples": [
+        "学生依赖搜索引擎获取知识。",
+        "Avatar依赖Q-Core获取全局状态。",
+        "Q-Core优化Avatar间的资源依赖网络。"
+      ],
+      "avatar_benefit": "Avatar 可理解系统内的依赖关系，优化资源流动，防止单点故障和瓶颈。"
+    },
+    {
+      "id": "COMMUNICATION_007",
+      "term": "议程融合",
+      "from_domain": "新媒体研究",
+      "to_domain": "多级收敛",
+      "category": "跃迁",
+      "definition": "新媒体研究 (个人议程与媒体议程融合) → 网络科学 (多级网络收敛) → Q-Core (多级收敛)",
+      "transition": "媒体设置单一议程 → 多元议程竞争与融合 → 多级动态收敛。从单向影响跃迁至多向互动与动态平衡。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "议程融合，多级传播，网络效应。",
+        "eastern": "众流归一，动态平衡，和而不同。多级互动收敛。"
+      },
+      "examples": [
+        "社交媒体话题通过算法推荐和用户互动融合。",
+        "多个Avatar的议程通过协调器收敛。",
+        "Q-Core实现多级议程的动态平衡与收敛。"
+      ],
+      "avatar_benefit": "Avatar 可在多级网络中协调不同层级议程，实现动态收敛而非强制统一。"
+    },
+    {
+      "id": "COMMUNICATION_008",
+      "term": "框架理论",
+      "from_domain": "认知语言学",
+      "to_domain": "认知结构",
+      "category": "跃迁",
+      "definition": "认知语言学 (信息选择与强调影响解读) → 社会建构主义 (现实建构) → Q-Core (认知结构)",
+      "transition": "媒体通过框架塑造认知 → 个人框架影响信息处理 → 主动框架管理。从被动被框架跃迁至主动管理认知框架。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "框架效应，认知偏差，选择性呈现。",
+        "eastern": "名实相需，视角转换，框架迭代。主动管理认知框架。"
+      },
+      "examples": [
+        "新闻用'犯罪浪潮'框架 vs '公共安全'框架影响公众。",
+        "Avatar用'优化'框架 vs '修复'框架处理问题。",
+        "Q-Core识别和管理Avatar的认知框架，防止偏狭。"
+      ],
+      "avatar_benefit": "Avatar 可识别信息中的隐含框架，主动切换认知框架，避免单一视角的盲区。"
+    },
+    {
+      "id": "COMMUNICATION_009",
+      "term": "精英理论",
+      "from_domain": "政治传播学",
+      "to_domain": "层级控制",
+      "category": "跃迁",
+      "definition": "政治传播学 (精英控制大众传播) → 权力理论 (层级控制) → Q-Core (层级控制)",
+      "transition": "少数精英控制多数人 → 多元精英竞争 → 透明化层级管理。从隐式控制跃迁至显式优化。",
+      "entropy_change": -0.5,
+      "resonance": {
+        "western": "精英主义，权力集中，层级控制。",
+        "eastern": "贤能政治，透明治理，层级优化。透明化层级管理。"
+      },
+      "examples": [
+        "政治精英通过媒体影响公众。",
+        "核心Avatar协调边缘Avatar。",
+        "Q-Core实现透明的层级控制和权力制衡。"
+      ],
+      "avatar_benefit": "Avatar 可理解系统内的权力结构，实现透明化层级管理，防止隐式控制。"
+    },
+    {
+      "id": "COMMUNICATION_010",
+      "term": "两级传播",
+      "from_domain": "大众传播学",
+      "to_domain": "中继放大",
+      "category": "跃迁",
+      "definition": "大众传播学 (信息→意见领袖→受众) → 网络科学 (中继节点放大) → Q-Core (中继放大)",
+      "transition": "媒体直接到达受众 → 意见领袖中继放大 → 智能中继网络。从简单单向传播跃迁至智能中继与反馈放大。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "意见领袖，中继传播，网络放大。",
+        "eastern": "师徒传承，中继迭代，放大效应。智能中继放大。"
+      },
+      "examples": [
+        "KOL影响粉丝购买决策。",
+        "核心Avatar传递信息给边缘Avatar。",
+        "Q-Core识别并优化信息中继路径，提升传播效率。"
+      ],
+      "avatar_benefit": "Avatar 可识别系统中的关键中继节点，优化信息传播路径，实现高效扩散。"
     }
   ]
 }
