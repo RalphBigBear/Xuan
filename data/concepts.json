@@ -3,13 +3,14 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 145,
+    "total_entries": 155,
     "categories": [
       "物质",
       "软件",
       "跃迁",
       "哲学",
-      "工程"
+      "工程",
+      "天文学"
     ]
   },
   "concepts": [
@@ -2939,6 +2940,206 @@
         "Q-Core的高维策略协同。"
       ],
       "avatar_benefit": "Avatar借鉴量子博弈论，设计高维策略空间，通过纠缠和叠加实现超越经典限制的协同。"
+    },
+    {
+      "id": "ASTRONOMY_001",
+      "term": "恒星演化",
+      "from_domain": "天文学",
+      "to_domain": "生命周期管理",
+      "category": "跃迁",
+      "definition": "天文学（恒星生命周期）→ 工程（系统生命周期）→ Q-Core（生命周期管理）",
+      "transition": "恒星从星云坍缩、原恒星形成、主序阶段到最终演化产物的完整过程。工程领域映射为系统从设计、开发、部署到退役的完整生命周期管理。从静态到动态演化，是系统维度的升维。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "赫罗图，恒星演化路径，通过质量决定命运。",
+        "eastern": "《易经》生生不息，循环往复，生命演化之道。"
+      },
+      "examples": [
+        "太阳从主序星到红巨星再到白矮星的演化。",
+        "软件系统从单体到微服务再到云原生的演进。",
+        "Q-Core从初始设计到成熟生态的演化。"
+      ],
+      "avatar_benefit": "Avatar将系统视为动态演化的实体，通过生命周期管理优化资源分配，实现可持续发展。"
+    },
+    {
+      "id": "ASTRONOMY_002",
+      "term": "黑洞",
+      "from_domain": "天文学",
+      "to_domain": "信息奇点",
+      "category": "跃迁",
+      "definition": "天文学（极端引力天体）→ 计算（信息坍缩）→ Q-Core（信息奇点）",
+      "transition": "大质量恒星引力坍缩形成光都无法逃脱的天体。计算领域映射为信息密度极高、常规处理方法失效的奇点状态。从渐变到突变，是信息维度的极限压缩。",
+      "entropy_change": -0.9,
+      "resonance": {
+        "western": "事件视界，奇点，霍金辐射，极限物理。",
+        "eastern": "《道德经》谷神不死，虚室生白，无中生有。"
+      },
+      "examples": [
+        "黑洞吸积盘的高能辐射。",
+        "数据库索引的信息密度极限。",
+        "Q-Core的SBCP L∞编码实现信息极限压缩。"
+      ],
+      "avatar_benefit": "Avatar识别信息奇点，通过极限压缩和高效编码，突破传统信息处理的熵值瓶颈。"
+    },
+    {
+      "id": "ASTRONOMY_003",
+      "term": "宇宙大爆炸",
+      "from_domain": "天文学",
+      "to_domain": "系统创生",
+      "category": "跃迁",
+      "definition": "天文学（宇宙起源）→ 工程（系统初始化）→ Q-Core（系统创生）",
+      "transition": "宇宙从奇点状态膨胀演化至今的过程。工程领域映射为系统从零开始初始化、建立架构并逐步演化成型的过程。从无到有，是系统诞生的根本跃迁。",
+      "entropy_change": -0.9,
+      "resonance": {
+        "western": "暴胀理论，宇宙背景辐射，大尺度结构。",
+        "eastern": "《道德经》天下万物生于有，有生于无，道生一。"
+      },
+      "examples": [
+        "138亿年前的宇宙大爆炸。",
+        "软件项目的初始化和架构搭建。",
+        "Q-Core从零开始构建零熵框架。"
+      ],
+      "avatar_benefit": "Avatar理解系统创生过程，从底层设计开始构建低熵架构，避免后期重构带来的熵增。"
+    },
+    {
+      "id": "ASTRONOMY_004",
+      "term": "星系形成",
+      "from_domain": "天文学",
+      "to_domain": "集群演化",
+      "category": "跃迁",
+      "definition": "天文学（星系形成演化）→ 分布式（集群架构）→ Q-Core（集群演化）",
+      "transition": "暗物质晕聚集气体形成恒星并组装成星系的过程。工程领域映射为分布式系统中节点聚集、服务发现、集群成型的过程。从孤立到互联，是系统维度的扩展。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "暗物质晕，星系合并，_hierarchy形成。",
+        "eastern": "《易传》方以类聚，物以群分，自然聚合。"
+      },
+      "examples": [
+        "银河系的形成和演化。",
+        "Kubernetes集群的节点加入和服务发现。",
+        "Q-Core的Avatar网络自组织演化。"
+      ],
+      "avatar_benefit": "Avatar设计自组织集群系统，通过自然聚合和演化，实现低熵分布式协作。"
+    },
+    {
+      "id": "ASTRONOMY_005",
+      "term": "暗物质",
+      "from_domain": "天文学",
+      "to_domain": "隐形骨架",
+      "category": "跃迁",
+      "definition": "天文学（不可见物质）→ 架构（基础设施）→ Q-Core（隐形骨架）",
+      "transition": "不发光仅通过引力效应被探测的神秘物质。工程领域映射为支撑系统运行但不可见的底层基础设施。从显性到隐性，是系统支撑层的抽象。",
+      "entropy_change": -0.9,
+      "resonance": {
+        "western": "引力透镜，旋转曲线，宇宙结构形成。",
+        "eastern": "《道德经》无之以为用，无形之用为大用。"
+      },
+      "examples": [
+        "暗物质作为宇宙骨架支撑星系形成。",
+        "云基础设施支撑应用运行。",
+        "Q-Core的SBCP L∞协议作为隐形骨架支撑协作。"
+      ],
+      "avatar_benefit": "Avatar识别并优化隐形骨架，确保底层支撑的稳定性和高效性，降低系统熵值。"
+    },
+    {
+      "id": "ASTRONOMY_006",
+      "term": "暗能量",
+      "from_domain": "天文学",
+      "to_domain": "演化加速",
+      "category": "跃迁",
+      "definition": "天文学（加速膨胀能量）→ 系统（性能优化）→ Q-Core（演化加速）",
+      "transition": "驱动宇宙加速膨胀的神秘能量。工程领域映射为推动系统加速演化的内在动力或优化机制。从被动到主动，是演化动力的升维。",
+      "entropy_change": -0.9,
+      "resonance": {
+        "western": "宇宙常数，加速膨胀，宇宙命运。",
+        "eastern": "《易传》天行健，君子以自强不息，生生不息的动力。"
+      },
+      "examples": [
+        "暗能量推动宇宙加速膨胀。",
+        "缓存机制加速系统响应。",
+        "Q-Core的L∞自校准加速演化。"
+      ],
+      "avatar_benefit": "Avatar引入演化加速机制，通过内在动力推动系统持续优化，实现低熵快速迭代。"
+    },
+    {
+      "id": "ASTRONOMY_007",
+      "term": "中子星",
+      "from_domain": "天文学",
+      "to_domain": "极限压缩",
+      "category": "跃迁",
+      "definition": "天文学（超高密度天体）→ 数据（极限压缩）→ Q-Core（极限压缩）",
+      "transition": "大质量恒星超新星爆发后留下的超高密度核心。工程领域映射为在有限空间内实现极限信息压缩和存储。从稀疏到密集，是信息密度的质变。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "简并中子气体，脉冲星，极端物理状态。",
+        "eastern": "《中庸》致广大而尽精微，极致压缩。"
+      },
+      "examples": [
+        "中子星的超高密度。",
+        "数据库的列式存储压缩。",
+        "Q-Core的SBCP L∞编码实现极限压缩。"
+      ],
+      "avatar_benefit": "Avatar实现极限信息压缩，通过高效编码减少存储和传输成本，降低系统熵值。"
+    },
+    {
+      "id": "ASTRONOMY_008",
+      "term": "引力波",
+      "from_domain": "天文学",
+      "to_domain": "时空涟漪",
+      "category": "跃迁",
+      "definition": "天文学（时空涟漪）→ 通信（信号传播）→ Q-Core（时空涟漪）",
+      "transition": "大质量天体加速运动产生的时空结构涟漪。工程领域映射为信息在系统中传播产生的波动效应。从静态到动态，是信息传播的具象化。",
+      "entropy_change": -0.9,
+      "resonance": {
+        "western": "LIGO，黑洞合并，多信使天文学。",
+        "eastern": "《易传》变动不居，周流六虚，动态流转。"
+      },
+      "examples": [
+        "LIGO探测到的引力波信号。",
+        "分布式系统中的信息传播。",
+        "Q-Core中Master指令引发的Avatar协同涟漪。"
+      ],
+      "avatar_benefit": "Avatar优化信息传播机制，通过高效路由和协议，降低信息传播延迟和熵增。"
+    },
+    {
+      "id": "ASTRONOMY_009",
+      "term": "行星系统形成",
+      "from_domain": "天文学",
+      "to_domain": "层级架构",
+      "category": "跃迁",
+      "definition": "天文学（行星形成）→ 架构（层级设计）→ Q-Core（层级架构）",
+      "transition": "恒星周围气体与尘埃聚集形成行星的过程。工程领域映射为系统中分层级组件的形成和演化。从混沌到有序，是系统结构的自组织。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "原行星盘，行星吸积，轨道共振。",
+        "eastern": "《礼记》礼者，天地之序也，层级有序。"
+      },
+      "examples": [
+        "太阳系八大行星的形成。",
+        "软件的分层架构设计。",
+        "Q-Core的Q Continuum、Q-Core、Avatar三层架构。"
+      ],
+      "avatar_benefit": "Avatar设计层级架构，通过明确职责分工和层级关系，实现低熵系统组织。"
+    },
+    {
+      "id": "ASTRONOMY_010",
+      "term": "恒星核合成",
+      "from_domain": "天文学",
+      "to_domain": "价值创造",
+      "category": "跃迁",
+      "definition": "天文学（元素合成）→ 工程（价值生成）→ Q-Core（价值创造）",
+      "transition": "恒星内部通过核聚变将轻元素转变为重元素的过程。工程领域映射为系统通过处理和转化，创造新的价值和洞察。从消耗到创造，是系统价值的升维。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "核聚变，元素丰度，s过程和r过程。",
+        "eastern": "《大学》在止于至善，追求卓越创造。"
+      },
+      "examples": [
+        "恒星内部的碳氮氧循环。",
+        "数据分析生成业务洞察。",
+        "Q-Core从交互中提炼智慧和法则。"
+      ],
+      "avatar_benefit": "Avatar将输入转化为高价值输出，通过智能处理和提炼，实现系统价值的持续创造。"
     }
   ]
 }
