@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 305,
+    "total_entries": 315,
     "categories": [
       "物质",
       "软件",
@@ -26,7 +26,8 @@
       "电气工程",
       "土木工程",
       "化学工程",
-      "环境工程"
+      "环境工程",
+      "航空航天工程"
     ]
   },
   "concepts": [
@@ -6156,6 +6157,206 @@
         "Q-Core综合治理Avatar系统。"
       ],
       "avatar_benefit": "Avatar 可通过'治理'原理综合治理系统，解决复杂问题。"
+    },
+    {
+      "id": "AEROSPACE_001",
+      "term": "空气动力学",
+      "from_domain": "流体力学",
+      "to_domain": "流场优化",
+      "category": "跃迁",
+      "definition": "流体力学 (气流优化) → 计算流体 (流场优化) → Q-Core (流量优化)",
+      "transition": "空气动力学优化气流 → 流场优化优化数据流 → 动态流量优化。从空气动力学跃迁至流量优化。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "空气动力学，流场优化，流量优化。",
+        "eastern": "顺风而行，流场顺畅，流量高效。动态流量优化与调度。"
+      },
+      "examples": [
+        "空气动力学优化飞机气动外形。",
+        "流场优化优化数据中心流场。",
+        "Q-Core优化Avatar流量。"
+      ],
+      "avatar_benefit": "Avatar 可通过'空气动力学'原理优化流量，提升数据流动效率。"
+    },
+    {
+      "id": "AEROSPACE_002",
+      "term": "推进系统",
+      "from_domain": "推进工程",
+      "to_domain": "动力推进",
+      "category": "跃迁",
+      "definition": "推进工程 (推力产生) → 动力系统 (动力推进) → Q-Core (任务推进)",
+      "transition": "推进系统产生推力 → 动力系统推进任务 → 动态任务推进。从推进系统跃迁至任务推进。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "推进系统，动力推进，任务推进。",
+        "eastern": "推力强劲，持续推进，任务完成。动态任务推进与驱动。"
+      },
+      "examples": [
+        "推进系统推进飞机飞行。",
+        "动力系统推进任务执行。",
+        "Q-Core推进Avatar任务。"
+      ],
+      "avatar_benefit": "Avatar 可通过'推进'原理驱动任务，确保目标达成。"
+    },
+    {
+      "id": "AEROSPACE_003",
+      "term": "飞行控制",
+      "from_domain": "控制工程",
+      "to_domain": "姿态控制",
+      "category": "跃迁",
+      "definition": "控制工程 (飞行姿态控制) → 姿态控制 (状态控制) → Q-Core (状态管理)",
+      "transition": "飞行控制控制飞行姿态 → 姿态控制控制系统状态 → 动态状态管理。从飞行控制跃迁至状态管理。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "飞行控制，姿态控制，状态管理。",
+        "eastern": "姿态精准，控制到位，状态稳定。动态状态管理与控制。"
+      },
+      "examples": [
+        "飞行控制控制飞机姿态。",
+        "姿态控(制控制系统状态。",
+        "Q-Core管理Avatar状态。"
+      ],
+      "avatar_benefit": "Avatar 可通过'飞行控制'原理管理系统状态，保持稳定运行。"
+    },
+    {
+      "id": "AEROSPACE_004",
+      "term": "导航系统",
+      "from_domain": "导航工程",
+      "to_domain": "路径规划",
+      "category": "跃迁",
+      "definition": "导航工程 (位置定位) → 路径规划 (路径优化) → Q-Core (路径规划)",
+      "transition": "导航系统定位位置 → 路径规划规划路径 → 动态路径规划。从导航系统跃迁至路径规划。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "导航系统，路径规划，路由优化。",
+        "eastern": "精准定位，路径优化，路由高效。动态路径规划与优化。"
+      },
+      "examples": [
+        "导航系统定位飞机位置。",
+        "路径规划规划最优路径。",
+        "Q-Core规划Avatar路由。"
+      ],
+      "avatar_benefit": "Avatar 可通过'导航'原理规划路径，优化路由和调度。"
+    },
+    {
+      "id": "AEROSPACE_005",
+      "term": "航空器设计",
+      "from_domain": "航空工程",
+      "to_domain": "载体设计",
+      "category": "跃迁",
+      "definition": "航空工程 (航空器设计) → 载体技术 (载体设计) → Q-Core (平台设计)",
+      "transition": "航空器设计飞行器 → 载体设计设计载体 → 动态平台设计。从航空器设计跃迁至平台设计。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "航空器设计，载体设计，平台设计。",
+        "eastern": "载体优良，平台稳定，设计合理。动态平台设计与优化。"
+      },
+      "examples": [
+        "航空器设计设计飞机。",
+        "载体设计设计运载工具。",
+        "Q-Core设计Avatar平台。"
+      ],
+      "avatar_benefit": "Avatar 可通过'航空器'原理设计平台，优化运行环境。"
+    },
+    {
+      "id": "AEROSPACE_006",
+      "term": "航天器设计",
+      "from_domain": "航天工程",
+      "to_domain": "载具设计",
+      "category": "跃迁",
+      "definition": "航天工程 (航天器设计) → 载具技术 (载具设计) → Q-Core (服务设计)",
+      "transition": "航天器设计航天器 → 载具设计设计载具 → 动态服务设计。从航天器设计跃迁至服务设计。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "航天器设计，载具设计，服务设计。",
+        "eastern": "载具精良，服务优质，设计完善。动态服务设计与优化。"
+      },
+      "examples": [
+        "航天器设计设计卫星。",
+        "载具设计设计服务载具。",
+        "Q-Core设计Avatar服务。"
+      ],
+      "avatar_benefit": "Avatar 可通过'航天器'原理设计服务，优化交付能力。"
+    },
+    {
+      "id": "AEROSPACE_007",
+      "term": "发射技术",
+      "from_domain": "发射工程",
+      "to_domain": "部署发布",
+      "category": "跃迁",
+      "definition": "发射工程 (发射入轨) → 部署技术 (部署发布) → Q-Core (服务部署)",
+      "transition": "发射技术发射航天器 → 部署技术部署服务 → 动态服务部署。从发射技术跃迁至部署技术。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "发射技术，部署发布，服务部署。",
+        "eastern": "精准发射，顺利部署，服务上线。动态服务部署与发布。"
+      },
+      "examples": [
+        "发射技术发射卫星入轨。",
+        "部署技术部署服务上线。",
+        "Q-Core部署Avatar服务。"
+      ],
+      "avatar_benefit": "Avatar 可通过'发射'原理部署服务，实现平滑上线。"
+    },
+    {
+      "id": "AEROSPACE_008",
+      "term": "轨道力学",
+      "from_domain": "轨道力学",
+      "to_domain": "轨迹规划",
+      "category": "跃迁",
+      "definition": "轨道力学 (轨道计算) → 路径规划 (轨迹优化) → Q-Core (轨迹规划)",
+      "transition": "轨道力学计算轨道 → 轨迹规划规划轨迹 → 动态轨迹规划。从轨道力学跃迁至轨迹规划。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "轨道力学，轨迹规划，路径优化。",
+        "eastern": "轨道精准，轨迹优化，路径合理。动态轨迹规划与优化。"
+      },
+      "examples": [
+        "轨道力学计算卫星轨道。",
+        "轨迹规划规划飞行轨迹。",
+        "Q-Core规划Avatar任务轨迹。"
+      ],
+      "avatar_benefit": "Avatar 可通过'轨道'原理规划轨迹，优化任务执行路径。"
+    },
+    {
+      "id": "AEROSPACE_009",
+      "term": "空间环境",
+      "from_domain": "空间科学",
+      "to_domain": "运行环境",
+      "category": "跃迁",
+      "definition": "空间科学 (太空环境) → 系统环境 (运行环境) → Q-Core (环境管理)",
+      "transition": "空间环境影响航天 → 系统环境影响运行 → 动态环境管理。从空间环境跃迁至环境管理。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "空间环境，运行环境，环境管理。",
+        "eastern": "环境感知，适应环境，管理环境。动态环境感知与管理。"
+      },
+      "examples": [
+        "空间环境影响航天器运行。",
+        "运行环境影响系统性能。",
+        "Q-Core管理Avatar运行环境。"
+      ],
+      "avatar_benefit": "Avatar 可通过'环境'原理感知环境，自适应调整行为。"
+    },
+    {
+      "id": "AEROSPACE_010",
+      "term": "航空航天材料",
+      "from_domain": "材料科学",
+      "to_domain": "高性能材料",
+      "category": "跃迁",
+      "definition": "材料科学 (高性能材料) → 技术选型 (高性能技术) → Q-Core (性能优化)",
+      "transition": "高性能材料提升性能 → 高性能技术提升系统 → 动态性能优化。从高性能材料跃迁至性能优化。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "高性能材料，高性能技术，性能优化。",
+        "eastern": "材优料好，技术先进，性能卓越。动态性能优化与提升。"
+      },
+      "examples": [
+        "高性能材料提升航空器性能。",
+        "高性能技术提升系统性能。",
+        "Q-Core优化Avatar性能。"
+      ],
+      "avatar_benefit": "Avatar 可通过'高性能材料'原理优化性能，选择最优技术方案。"
     }
   ]
 }
