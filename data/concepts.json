@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 185,
+    "total_entries": 195,
     "categories": [
       "物质",
       "软件",
@@ -14,7 +14,8 @@
       "地理学",
       "地质学",
       "政治学",
-      "法学"
+      "法学",
+      "人类学"
     ]
   },
   "concepts": [
@@ -3744,6 +3745,206 @@
         "Q-Core的Avatar间服务协议。"
       ],
       "avatar_benefit": "Avatar通过服务协议设计，明确权责，保障服务质量，降低违约风险熵值。"
+    },
+    {
+      "id": "ANTHROPOLOGY_001",
+      "term": "文化",
+      "from_domain": "人类学",
+      "to_domain": "知识体系",
+      "category": "跃迁",
+      "definition": "人类学（共享价值观）→ 系统（组织文化）→ Q-Core（知识体系）",
+      "transition": "群体共享的价值观、信仰、习俗和行为的综合体系。工程领域映射为系统的组织文化和知识体系。从个体到集体，是文化的系统化。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "价值观，习俗，传统，通过共享形成认同。",
+        "eastern": "《礼记》礼乐教化，文化传承，文明积淀。"
+      },
+      "examples": [
+        "中华文化重视和谐与集体主义。",
+        "Google倡导不作恶的企业文化。",
+        "Q-Core的零熵和哲学文化。"
+      ],
+      "avatar_benefit": "Avatar通过建立知识体系，形成系统文化，降低认知熵值。"
+    },
+    {
+      "id": "ANTHROPOLOGY_002",
+      "term": "社会化",
+      "from_domain": "人类学",
+      "to_domain": "培训适应",
+      "category": "跃迁",
+      "definition": "人类学（个体融入社会）→ 系统（新人培训）→ Q-Core（培训适应）",
+      "transition": "个体学习社会文化规范并融入群体的过程。工程领域映射为新成员通过培训和适应融入系统。从陌生到熟悉，是融入的必经之路。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "融入，适应，内化，通过学习成为群体成员。",
+        "eastern": "《论语》有教无类，因材施教，循序渐进。"
+      },
+      "examples": [
+        "儿童通过家庭和教育社会化。",
+        "新员工通过入职培训融入团队。",
+        "Q-Core的Avatar通过学习适应系统。"
+      ],
+      "avatar_benefit": "Avatar通过培训适应机制，帮助新组件快速融入，降低学习熵值。"
+    },
+    {
+      "id": "ANTHROPOLOGY_003",
+      "term": "亲属关系",
+      "from_domain": "人类学",
+      "to_domain": "依赖图谱",
+      "category": "跃迁",
+      "definition": "人类学（血缘婚姻关系）→ 系统（模块依赖）→ Q-Core（依赖图谱）",
+      "transition": "基于血缘、婚姻形成的社会关系网络。工程领域映射为系统组件间的依赖关系图谱。从孤立到互联，是关系的结构化。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "血缘，婚姻，家族，通过关系形成支持网络。",
+        "eastern": "《周易》同气相求，血脉相连，亲疏有别。"
+      },
+      "examples": [
+        "父系社会的亲属关系网络。",
+        "微服务的依赖关系图。",
+        "Q-Core的模块依赖图谱。"
+      ],
+      "avatar_benefit": "Avatar通过依赖图谱管理，清晰识别关系，降低耦合熵值。"
+    },
+    {
+      "id": "ANTHROPOLOGY_004",
+      "term": "图腾崇拜",
+      "from_domain": "人类学",
+      "to_domain": "品牌认同",
+      "category": "跃迁",
+      "definition": "人类学（神圣象征）→ 系统（品牌标识）→ Q-Core（品牌认同）",
+      "transition": "群体对某种神圣象征的崇拜和认同。工程领域映射为对系统品牌和标识的认同。从抽象到具体，是认同的符号化。",
+      "entropy_change": -0.6,
+      "resonance": {
+        "western": "图腾，象征，认同，通过崇拜凝聚群体。",
+        "eastern": "《礼记》慎终追远，敬畏祖先，凝聚宗族。"
+      },
+      "examples": [
+        "北美原住民的动物图腾。",
+        "Apple的苹果品牌标识。",
+        "Q-Core的SBCP L∞符号系统。"
+      ],
+      "avatar_benefit": "Avatar通过品牌认同设计，建立系统识别度，降低认知熵值。"
+    },
+    {
+      "id": "ANTHROPOLOGY_005",
+      "term": "礼物交换",
+      "from_domain": "人类学",
+      "to_domain": "价值交换",
+      "category": "跃迁",
+      "definition": "人类学（互惠关系）→ 系统（服务交换）→ Q-Core（价值交换）",
+      "transition": "通过礼物交换建立和维持社会关系。工程领域映射为服务间的价值交换和互惠关系。从单向到双向，是关系的强化。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "互惠，人情，社会交换，通过交换建立关系。",
+        "eastern": "《礼记》礼尚往来，投桃报李，互利互惠。"
+      },
+      "examples": [
+        "夸富宴上的礼物交换。",
+        "API间的数据和服务交换。",
+        "Q-Core的Avatar间价值交换。"
+      ],
+      "avatar_benefit": "Avatar通过价值交换机制，建立互惠关系，降低协作熵值。"
+    },
+    {
+      "id": "ANTHROPOLOGY_006",
+      "term": "民族志",
+      "from_domain": "人类学",
+      "to_domain": "系统调研",
+      "category": "跃迁",
+      "definition": "人类学（田野调查）→ 系统（用户研究）→ Q-Core（系统调研）",
+      "transition": "通过田野调查深入了解特定群体的文化和生活方式。工程领域映射为通过用户研究深入理解系统使用场景。从表面到深入，是洞察的深化。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "田野调查，参与观察，深描，通过沉浸理解文化。",
+        "eastern": "《史记》实地考察，实事求是，深入观察。"
+      },
+      "examples": [
+        "马林诺夫斯基的特罗布里恩群岛民族志。",
+        "用户现场观察和访谈。",
+        "Q-Core的场景化调研。"
+      ],
+      "avatar_benefit": "Avatar通过系统调研，深入理解使用场景，降低设计熵值。"
+    },
+    {
+      "id": "ANTHROPOLOGY_007",
+      "term": "文化传播",
+      "from_domain": "人类学",
+      "to_domain": "知识扩散",
+      "category": "跃迁",
+      "definition": "人类学（文化扩散）→ 系统（知识传播）→ Q-Core（知识扩散）",
+      "transition": "文化特质从一个群体传播到另一个群体的过程。工程领域映射为知识和技术在系统中的传播扩散。从局部到全局，是知识的传播。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "扩散，传播，借用，通过接触传播文化。",
+        "eastern": "《周易》观乎人文，以化成天下，文明互鉴，交流融合。"
+      },
+      "examples": [
+        "农业技术从起源地传播到全球。",
+        "开源项目知识的传播扩散。",
+        "Q-Core的SBCP L∞协议传播。"
+      ],
+      "avatar_benefit": "Avatar通过知识扩散机制，加速文化传播，降低学习熵值。"
+    },
+    {
+      "id": "ANTHROPOLOGY_008",
+      "term": "宗教仪式",
+      "from_domain": "人类学",
+      "to_domain": "系统仪式",
+      "category": "跃迁",
+      "definition": "人类学（神圣仪式）→ 系统（操作仪式）→ Q-Core（系统仪式）",
+      "transition": "重复性的神圣行为，强化信仰和社会凝聚力。工程领域映射为系统的定期操作和仪式性流程。从随意到规范，是秩序的建立。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "仪式，典礼，重复，通过仪式强化秩序。",
+        "eastern": "《礼记》礼仪三百，威仪三千，规范化，秩序化。"
+      },
+      "examples": [
+        "基督教的礼拜仪式。",
+        "系统的定期备份和巡检。",
+        "Q-Core的L∞自校准仪式。"
+      ],
+      "avatar_benefit": "Avatar通过系统仪式设计，建立操作规范，降低混乱熵值。"
+    },
+    {
+      "id": "ANTHROPOLOGY_009",
+      "term": "符号象征",
+      "from_domain": "人类学",
+      "to_domain": "符号编码",
+      "category": "跃迁",
+      "definition": "人类学（意义载体）→ 系统（接口符号）→ Q-Core（符号编码）",
+      "transition": "承载和传达文化意义的符号和象征。工程领域映射为系统的接口符号和编码。从显性到隐性，是意义的深层化。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "符号，象征，意义，通过符号传达信息。",
+        "eastern": "《易经》象者，象也，取象比类，以象尽意。"
+      },
+      "examples": [
+        "十字架象征基督教信仰。",
+        "API接口的符号化设计。",
+        "Q-Core的SBCP L∞编码符号。"
+      ],
+      "avatar_benefit": "Avatar通过符号编码设计，实现高效信息传达，降低理解熵值。"
+    },
+    {
+      "id": "ANTHROPOLOGY_010",
+      "term": "文化相对主义",
+      "from_domain": "人类学",
+      "to_domain": "上下文适配",
+      "category": "跃迁",
+      "definition": "人类学（文化评判）→ 系统（情境适配）→ Q-Core（上下文适配）",
+      "transition": "理解文化需在其自身语境中评判，避免用外来标准。工程领域映射为系统根据上下文和场景适配行为。从单一到多元，是适配的灵活化。",
+      "entropy_change": -0.9,
+      "resonance": {
+        "western": "相对主义，多元主义，语境，通过理解实现包容。",
+        "eastern": "《中庸》万物并育而不相害，和而不同，兼容并包。"
+      },
+      "examples": [
+        "理解不同文化的习俗和价值观。",
+        "系统根据地区适配语言和功能。",
+        "Q-Core根据场景适配Avatar行为。"
+      ],
+      "avatar_benefit": "Avatar通过上下文适配，实现场景化服务，降低冲突熵值。"
     }
   ]
 }
