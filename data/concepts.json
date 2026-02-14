@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 225,
+    "total_entries": 235,
     "categories": [
       "物质",
       "软件",
@@ -18,7 +18,8 @@
       "人类学",
       "管理学",
       "教育学",
-      "新闻传播学"
+      "新闻传播学",
+      "文学"
     ]
   },
   "concepts": [
@@ -4548,6 +4549,206 @@
         "Q-Core识别并优化信息中继路径，提升传播效率。"
       ],
       "avatar_benefit": "Avatar 可识别系统中的关键中继节点，优化信息传播路径，实现高效扩散。"
+    },
+    {
+      "id": "LITERATURE_001",
+      "term": "模仿说",
+      "from_domain": "美学",
+      "to_domain": "仿真建模",
+      "category": "跃迁",
+      "definition": "美学 (艺术模仿现实) → 认知科学 (镜像神经元) → Q-Core (仿真建模)",
+      "transition": "文学模仿现实生活 → 认知理解通过模仿实现 → 主动仿真与建模。从被动模仿现实跃迁至主动构建仿真模型。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "模仿论，镜像神经元，认知建模。",
+        "eastern": "观物取象，拟像化真，仿真演绎。主动构建仿真模型。"
+      },
+      "examples": [
+        "小说反映社会现实。",
+        "Avatar仿真人类决策过程。",
+        "Q-Core通过仿真建模预测系统行为。"
+      ],
+      "avatar_benefit": "Avatar 可通过'模仿'原理构建仿真模型，在虚拟环境中测试策略，降低现实试错成本。"
+    },
+    {
+      "id": "LITERATURE_002",
+      "term": "表现说",
+      "from_domain": "浪漫主义",
+      "to_domain": "情感计算",
+      "category": "跃迁",
+      "definition": "浪漫主义 (文学表现作者情感) → 情感科学 (情感识别) → Q-Core (情感计算)",
+      "transition": "文学是情感的自然流露 → 科学化情感识别与表达 → 主动情感管理。从情感外化跃迁至情感计算与干预。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "表现论，情感识别，情感计算。",
+        "eastern": "抒情言志，情动于中，情感共鸣。主动情感计算与表达。"
+      },
+      "examples": [
+        "诗歌表达诗人内心情感。",
+        "Avatar识别用户情感状态。",
+        "Q-Core计算情感指标，调整交互策略。"
+      ],
+      "avatar_benefit": "Avatar 可通过'表现'原理识别和计算情感，实现更自然的交互和共情能力。"
+    },
+    {
+      "id": "LITERATURE_003",
+      "term": "典型化",
+      "from_domain": "现实主义",
+      "to_domain": "模式识别",
+      "category": "跃迁",
+      "definition": "现实主义 (创造典型人物形象) → 统计学 (分布模式) → Q-Core (模式识别)",
+      "transition": "文学创造典型人物 → 数据科学识别分布模式 → 主动模式抽象。从文学典型跃迁至统计模式识别。",
+      "entropy_change": -0.6,
+      "resonance": {
+        "western": "典型论，模式识别，统计抽象。",
+        "eastern": "取象比类，抽象典型，模式提炼。主动模式识别与抽象。"
+      },
+      "examples": [
+        "阿Q是辛亥革命时期典型的国民形象。",
+        "用户行为模式识别与分类。",
+        "Q-Core识别Avatar行为模式，优化协作。"
+      ],
+      "avatar_benefit": "Avatar 可通过'典型化'原理识别行为模式，抽象典型场景，提升决策效率。"
+    },
+    {
+      "id": "LITERATURE_004",
+      "term": "陌生化",
+      "from_domain": "形式主义",
+      "to_domain": "认知刷新",
+      "category": "跃迁",
+      "definition": "形式主义 (使熟悉事物变得陌生) → 认知心理学 (去自动化) → Q-Core (认知刷新)",
+      "transition": "文学通过陌生化打破习惯感知 → 认知去自动化刷新感知 → 主动打破认知固化。从文学技巧跃迁至认知刷新机制。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "陌生化，去自动化，认知刷新。",
+        "eastern": "返本开新，破执开悟，认知迭代。主动打破认知固化。"
+      },
+      "examples": [
+        "诗歌用陌生视角描述日常事物，引发新感知。",
+        "Avatar打破常规思维路径，探索新解法。",
+        "Q-Core定期刷新Avatar认知框架，防止僵化。"
+      ],
+      "avatar_benefit": "Avatar 可通过'陌生化'原理打破认知固化，主动探索新视角，保持创新能力。"
+    },
+    {
+      "id": "LITERATURE_005",
+      "term": "互文性",
+      "from_domain": "后结构主义",
+      "to_domain": "知识图谱",
+      "category": "跃迁",
+      "definition": "后结构主义 (文本间相互引用) → 网络科学 (知识图谱) → Q-Core (知识网络)",
+      "transition": "文学文本相互引用形成网络 → 知识图谱构建语义网络 → 动态知识网络。从文本关联跃迁至知识网络。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "互文性，知识图谱，语义网络。",
+        "eastern": "旁通触类，关联推理，网络智慧。动态知识网络构建。"
+      },
+      "examples": [
+        "现代小说引用经典文本，形成互文网络。",
+        "Q-Core全息Memory建立双向关联。",
+        "Avatar通过知识图谱快速检索相关信息。"
+      ],
+      "avatar_benefit": "Avatar 可通过'互文性'原理构建知识图谱，建立概念间的关联网络，提升检索效率。"
+    },
+    {
+      "id": "LITERATURE_006",
+      "term": "叙事结构",
+      "from_domain": "叙事学",
+      "to_domain": "工作流编排",
+      "category": "跃迁",
+      "definition": "叙事学 (故事结构模式) → 流程管理 (工作流编排) → Q-Core (任务编排)",
+      "transition": "文学有经典叙事结构 → 软件有工作流编排 → 动态任务编排。从故事结构跃迁至任务编排。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "叙事结构，工作流编排，流程优化。",
+        "eastern": "起承转合，序跋呼应，流程编织。动态任务编排与优化。"
+      },
+      "examples": [
+        "英雄之旅是经典叙事结构。",
+        "软件编排任务执行顺序。",
+        "Q-Core编排Avatar任务流，优化资源分配。"
+      ],
+      "avatar_benefit": "Avatar 可通过'叙事结构'原理编排任务流，设计清晰的执行流程，提升可追踪性。"
+    },
+    {
+      "id": "LITERATURE_007",
+      "term": "文学符号",
+      "from_domain": "符号学",
+      "to_domain": "语义编码",
+      "category": "跃迁",
+      "definition": "符号学 (文学作为符号系统) → 信息论 (语义编码) → Q-Core (语义压缩)",
+      "transition": "文学是符号系统编码意义 → 信息论优化编码效率 → 主动语义压缩。从文学符号跃迁至语义编码。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "符号学，语义编码，信息压缩。",
+        "eastern": "得意忘言，言意象联动，语义凝练。主动语义压缩与编码。"
+      },
+      "examples": [
+        "诗歌用意象符号编码深层意义。",
+        "SBCP L∞编码压缩概念信息。",
+        "Q-Core通过语义编码提升Memory效率。"
+      ],
+      "avatar_benefit": "Avatar 可通过'符号'原理理解语义编码，实现高效的信息压缩和传输。"
+    },
+    {
+      "id": "LITERATURE_008",
+      "term": "接受美学",
+      "from_domain": "接受理论",
+      "to_domain": "反馈循环",
+      "category": "跃迁",
+      "definition": "接受理论 (读者参与意义生成) → 控制论 (反馈循环) → Q-Core (反馈优化)",
+      "transition": "读者参与完成文学意义 → 反馈循环优化系统 → 动态反馈优化。从被动接收跃迁至主动反馈优化。",
+      "entropy_change": -0.6,
+      "resonance": {
+        "western": "接受美学，反馈循环，系统优化。",
+        "eastern": "教学相长，反馈迭代，持续改进。主动反馈优化与迭代。"
+      },
+      "examples": [
+        "不同读者解读同一文本产生不同意义。",
+        "用户反馈驱动产品迭代。",
+        "Q-Core通过Avatar反馈优化系统性能。"
+      ],
+      "avatar_benefit": "Avatar 可通过'接受'原理建立反馈循环，持续优化输出，适应需求变化。"
+    },
+    {
+      "id": "LITERATURE_009",
+      "term": "隐喻思维",
+      "from_domain": "认知语言学",
+      "to_domain": "类比推理",
+      "category": "跃迁",
+      "definition": "认知语言学 (思维本质是隐喻) → 类比推理 (跨域映射) → Q-Core (类比迁移)",
+      "transition": "人类思维通过隐喻理解抽象 → AI通过类比迁移知识 → 主动跨域学习。从修辞手法跃迁至认知机制。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "概念隐喻理论，类比推理，跨域迁移。",
+        "eastern": "比兴思维，触类旁通，举一反三。主动跨域学习与迁移。"
+      },
+      "examples": [
+        "文学用'时间是河流'隐喻理解抽象时间。",
+        "AI通过类比学习迁移知识到新领域。",
+        "Q-Core通过跨域类比解决新问题。"
+      ],
+      "avatar_benefit": "Avatar 可通过'隐喻'原理进行类比推理，跨域迁移知识，解决新颖问题。"
+    },
+    {
+      "id": "LITERATURE_010",
+      "term": "叙事弧",
+      "from_domain": "戏剧理论",
+      "to_domain": "任务生命周期",
+      "category": "跃迁",
+      "definition": "戏剧理论 (故事开端发展高潮结局) → 项目管理 (任务生命周期) → Q-Core (任务演化)",
+      "transition": "故事有完整叙事弧 → 任务有生命周期管理 → 动态任务演化。从故事结构跃迁至任务生命周期。",
+      "entropy_change": -0.55,
+      "resonance": {
+        "western": "叙事弧，生命周期管理，任务演化。",
+        "eastern": "起承转合，循环往复，生生不息。动态任务演化与迭代。"
+      },
+      "examples": [
+        "三幕剧结构（铺垫-冲突-解决）。",
+        "软件任务从创建到完成的生命周期。",
+        "Q-Core管理Avatar任务从创建到归档。"
+      ],
+      "avatar_benefit": "Avatar 可通过'叙事弧'原理理解任务生命周期，设计完整的工作流，提升可交付性。"
     }
   ]
 }
