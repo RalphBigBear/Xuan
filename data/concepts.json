@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "created": "2026-02-13",
     "last_updated": "2026-02-14",
-    "total_entries": 275,
+    "total_entries": 285,
     "categories": [
       "物质",
       "软件",
@@ -23,7 +23,8 @@
       "艺术学",
       "语言学",
       "机械工程",
-      "电气工程"
+      "电气工程",
+      "土木工程"
     ]
   },
   "concepts": [
@@ -5553,6 +5554,206 @@
         "Q-Core分发Avatar数据到最优节点。"
       ],
       "avatar_benefit": "Avatar 可通过'传输'原理设计分发系统，优化数据分发效率。"
+    },
+    {
+      "id": "CIVIL_001",
+      "term": "结构力学",
+      "from_domain": "结构工程",
+      "to_domain": "架构设计",
+      "category": "跃迁",
+      "definition": "结构工程 (承重结构分析) → 软件架构 (系统架构设计) → Q-Core (架构优化)",
+      "transition": "结构力学分析承重 → 软件架构设计系统 → 动态架构优化。从结构力学跃迁至架构设计。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "结构力学，架构设计，系统优化。",
+        "eastern": "栋梁之材，稳固可靠，架构优化。动态架构设计与优化。"
+      },
+      "examples": [
+        "建筑结构力学分析承重。",
+        "软件架构设计系统结构。",
+        "Q-Core优化Avatar架构。"
+      ],
+      "avatar_benefit": "Avatar 可通过'结构'原理设计系统架构，实现稳固可靠的系统设计。"
+    },
+    {
+      "id": "CIVIL_002",
+      "term": "材料力学",
+      "from_domain": "材料力学",
+      "to_domain": "性能优化",
+      "category": "跃迁",
+      "definition": "材料力学 (材料强度分析) → 性能工程 (性能优化) → Q-Core (资源优化)",
+      "transition": "材料力学分析强度 → 性能工程优化性能 → 动态资源优化。从材料力学跃迁至性能优化。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "材料力学，性能优化，资源优化。",
+        "eastern": "材尽其用，性能卓越，优化配置。动态性能与资源优化。"
+      },
+      "examples": [
+        "材料力学分析结构强度。",
+        "性能优化提升系统速度。",
+        "Q-Core优化Avatar资源性能。"
+      ],
+      "avatar_benefit": "Avatar 可通过'材料'原理优化性能，最大化资源利用率。"
+    },
+    {
+      "id": "CIVIL_003",
+      "term": "土力学",
+      "from_domain": "岩土工程",
+      "to_domain": "基础架构",
+      "category": "跃迁",
+      "definition": "岩土工程 (地基稳定性) → 基础设施 (基础设施层) → Q-Core (基础平台)",
+      "transition": "土力学保证地基稳定 → 基础设施支撑上层 → 动态基础平台。从土力学跃迁至基础设施。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "土力学，基础设施，基础平台。",
+        "eastern": "厚德载物，基础稳固，平台支撑。动态基础平台支撑。"
+      },
+      "examples": [
+        "土力学分析地基稳定性。",
+        "基础设施提供基础服务。",
+        "Q-Core提供Avatar基础平台。"
+      ],
+      "avatar_benefit": "Avatar 可通过'土力学'原理设计基础架构，提供稳定的基础平台。"
+    },
+    {
+      "id": "CIVIL_004",
+      "term": "流体力学",
+      "from_domain": "水力学",
+      "to_domain": "流处理",
+      "category": "跃迁",
+      "definition": "水力学 (水流优化) → 流计算 (数据流处理) → Q-Core (工作流管理)",
+      "transition": "流体力学优化水流 → 流计算优化数据流 → 动态工作流管理。从流体力学跃迁至流处理。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "流体力学，流计算，工作流。",
+        "eastern": "行云流水，顺势而为，流程优化。动态工作流处理与优化。"
+      },
+      "examples": [
+        "水力学优化水流。",
+        "流计算处理数据流。",
+        "Q-Core管理工作流。"
+      ],
+      "avatar_benefit": "Avatar 可通过'流体'原理优化工作流，实现流畅的数据处理。"
+    },
+    {
+      "id": "CIVIL_005",
+      "term": "工程测量",
+      "from_domain": "测量工程",
+      "to_domain": "监控度量",
+      "category": "跃迁",
+      "definition": "测量工程 (精确定位) → 监控系统 (性能监控) → Q-Core (度量指标)",
+      "transition": "工程测量实现精确定位 → 监控系统实现精确度量 → 动态度量指标。从测量工程跃迁至监控度量。",
+      "entropy_change": -0.6,
+      "resonance": {
+        "western": "工程测量，监控，度量。",
+        "eastern": "精准定位，度量有度，监控到位。动态监控与度量。"
+      },
+      "examples": [
+        "工程测量精确定位。",
+        "监控系统度量性能。",
+        "Q-Core度量Avatar指标。"
+      ],
+      "avatar_benefit": "Avatar 可通过'测量'原理实现精确度量，监控系统性能指标。"
+    },
+    {
+      "id": "CIVIL_006",
+      "term": "施工管理",
+      "from_domain": "施工工程",
+      "to_domain": "项目执行",
+      "category": "跃迁",
+      "definition": "施工工程 (施工过程管理) → 项目管理 (项目执行) → Q-Core (任务执行)",
+      "transition": "施工管理实现工程交付 → 项目管理实现项目交付 → 动态任务执行。从施工管理跃迁至任务执行。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "施工管理，项目执行，任务管理。",
+        "eastern": "精细施工，高效执行，任务完成。动态任务执行与管理。"
+      },
+      "examples": [
+        "施工管理管理工程建设。",
+        "项目管理执行项目任务。",
+        "Q-Core执行Avatar任务。"
+      ],
+      "avatar_benefit": "Avatar 可通过'施工'原理管理任务执行，确保高效交付。"
+    },
+    {
+      "id": "CIVIL_007",
+      "term": "建筑设计",
+      "from_domain": "建筑学",
+      "to_domain": "界面设计",
+      "category": "跃迁",
+      "definition": "建筑学 (空间设计) → UI/UX (界面设计) → Q-Core (交互设计)",
+      "transition": "建筑设计创造空间 → 界面设计创造交互 → 动态交互设计。从建筑设计跃迁至交互设计。",
+      "entropy_change": -0.65,
+      "resonance": {
+        "western": "建筑设计，界面设计，交互设计。",
+        "eastern": "空间美学，交互友好，体验优先。动态交互设计与优化。"
+      },
+      "examples": [
+        "建筑设计创造建筑空间。",
+        "UI设计创造用户界面。",
+        "Q-Core优化Avatar交互设计。"
+      ],
+      "avatar_benefit": "Avatar 可通过'建筑'原理设计交互界面，优化用户体验。"
+    },
+    {
+      "id": "CIVIL_008",
+      "term": "桥梁工程",
+      "from_domain": "桥梁工程",
+      "to_domain": "连接中介",
+      "category": "跃迁",
+      "definition": "桥梁工程 (跨越连接) → 中间件 (系统连接) → Q-Core (连接器)",
+      "transition": "桥梁实现物理连接 → 中间件实现系统连接 → 动态连接器。从桥梁工程跃迁至连接器。",
+      "entropy_change": -0.75,
+      "resonance": {
+        "western": "桥梁工程，中间件，连接器。",
+        "eastern": "沟通连接，桥梁纽带，中介服务。动态连接与中介服务。"
+      },
+      "examples": [
+        "桥梁连接两岸。",
+        "中间件连接异构系统。",
+        "Q-Core连接Avatar系统。"
+      ],
+      "avatar_benefit": "Avatar 可通过'桥梁'原理设计连接器，实现系统间的无缝连接。"
+    },
+    {
+      "id": "CIVIL_009",
+      "term": "隧道工程",
+      "from_domain": "隧道工程",
+      "to_domain": "通道优化",
+      "category": "跃迁",
+      "definition": "隧道工程 (地下通道) → 网络隧道 (数据通道) → Q-Core (数据通道)",
+      "transition": "隧道工程创建物理通道 → 网络隧道创建数据通道 → 动态数据通道。从隧道工程跃迁至数据通道。",
+      "entropy_change": -0.7,
+      "resonance": {
+        "western": "隧道工程，网络隧道，数据通道。",
+        "eastern": "穿越阻碍，通道畅通，数据直达。动态数据通道与优化。"
+      },
+      "examples": [
+        "隧道创建穿越通道。",
+        "网络隧道创建数据通道。",
+        "Q-Core创建Avatar数据通道。"
+      ],
+      "avatar_benefit": "Avatar 可通过'隧道'原理创建数据通道，穿越网络障碍。"
+    },
+    {
+      "id": "CIVIL_010",
+      "term": "防灾工程",
+      "from_domain": "防灾减灾",
+      "to_domain": "容错恢复",
+      "category": "跃迁",
+      "definition": "防灾减灾 (灾害防护) → 容错设计 (故障恢复) → Q-Core (韧性设计)",
+      "transition": "防灾工程抵御灾害 → 容错设计抵御故障 → 动态韧性设计。从防灾工程跃迁至韧性设计。",
+      "entropy_change": -0.8,
+      "resonance": {
+        "western": "防灾工程，容错设计，韧性设计。",
+        "eastern": "有备无患，快速恢复，韧性十足。动态韧性与恢复能力。"
+      },
+      "examples": [
+        "防灾工程抵御灾害。",
+        "容错设计抵御系统故障。",
+        "Q-Core设计韧性Avatar系统。"
+      ],
+      "avatar_benefit": "Avatar 可通过'防灾'原理设计容错机制，提升系统韧性和恢复能力。"
     }
   ]
 }
